@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/icons/icon.png">
+    <title>Chart</title>
+    <meta property="og:site_name" content="quark88.github.io/chart">
+    <meta property="og:title" content="Chart">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="You can make charts with this.">
+    <meta property="og:url" content="https://quark88.github.io/chart">
+    <meta property="og:image" content="https://quark88.github.io/chart/assets/icons/embed.png">
+    <meta name="theme-color" content="#00a0ff" data-react-helmet="true">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="warning">
+        <h1>READ THIS</h1>
+        <h2>Press HASHTAG (#) to swap between the chart and the settings</h2>
+        <h2>RIGHT CLICK to add a new node</h2>
+        <h2>LEFT CLICK AND DRAG to move an existing node</h2>
+        <h2>RIGHT CLICK A NODE to edit its properties</h2>
+        <h2>Don't try using this on mobile, this is made for PC</h2>
+        <button onclick="initializeDisplay()">OK i get it</button>
+    </div>
+    <button id="settingsToggle" onclick="toggleSettings()">See settings<br>(#)</button>
+    <div id="chart">
+        <div id="menu">
+            <input type="text" placeholder="Node name">
+            <div class="menuGrid">
+                <button>Ideology</button>
+                <button>Faction</button>
+                <button>Current faction</button>
+            </div>
+            <div id="menuColors"></div>
+            <input type="text" placeholder="Node hyperlink">
+            <div id="menuPrecursors">
+                <input type="text" placeholder="Precursor node">
+            </div>
+            <div class="menuGrid">
+                <button>Delete</button>
+                <button>Cancel</button>
+                <button>Save</button>
+            </div>
+        </div>
+        <div id="nodes"></div>
+        <div id="arrows"></div>
+    </div>
+    <div id="settings">
+        <div id="settingsContainer">
+            <button onclick="exportData()">Export data</button>
+            <button onclick="importData()">Import data</button>
+            <button onclick="toggleGridBackground()">Toggle grid</button>
+            <div id="chartSizeContainer">
+                <label for="widthPicker">Chart width:</label>
+                <input id="widthPicker" type="number" step="25" min="25" value="2000" name="widthPicker">
+                <label for="heightPicker">Chart height:</label>
+                <input id="heightPicker" type="number" step="25" min="25" value="2000" name="heightPicker">
+            </div>
+            <div id="settingsColors"></div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

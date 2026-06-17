@@ -1,0 +1,347 @@
+@font-face {
+    font-family: aptly;
+    src: url(./assets/fonts/aptly.otf);
+}
+
+@font-face {
+    font-family: expressway;
+    src: url(./assets/fonts/expressway.ttf);
+}
+
+@font-face {
+    font-family: gobold;
+    src: url(./assets/fonts/gobold.otf);
+}
+
+:root {
+    --text: #000000;
+    --textShadow: #ffffff;
+    --background: #202020;
+    --default: #808080;
+    --grid: #404040;
+}
+
+* {
+    text-decoration: none !important;
+}
+
+html,
+body {
+    background-color: #000000 !important;
+}
+
+h1,
+h2,
+html,
+body,
+button,
+div {
+    all: unset;
+}
+
+#warning,
+#chart,
+#settings {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--background);
+    box-sizing: border-box;
+}
+
+#warning {
+    z-index: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 2vmin;
+}
+
+#warning h1,
+#warning h2 {
+    text-align: center;
+    color: var(--text);
+    font-weight: 500;
+    color: var(--textShadow);
+}
+
+#warning h1 {
+    font-size: 10vmin;
+    font-family: gobold;
+}
+
+#warning h2 {
+    font-size: 5vmin;
+    font-family: expressway;
+}
+
+#warning button {
+    padding: 5vmin;
+    background-color: var(--textShadow);
+    color: var(--text);
+    font-family: aptly;
+    cursor: pointer;
+    font-size: 5vmin;
+}
+
+#settingsToggle {
+    position: fixed;
+    z-index: 300;
+    bottom: 25px;
+    right: 25px;
+    background-color: var(--textShadow);
+    width: 110px;
+    height: 60px;
+    cursor: pointer;
+    color: var(--text);
+    font-family: gobold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    text-shadow: -.5px -.5px 0 var(--textShadow), .5px -.5px 0 var(--textShadow), -.5px .5px 0 var(--textShadow), .5px .5px 0 var(--textShadow), -1px -1px 0 var(--textShadow), 1px -1px 0 var(--textShadow), -1px 1px 0 var(--textShadow), 1px 1px 0 var(--textShadow);
+    padding: 15px;
+    line-height: 2;
+}
+
+#chart {
+    width: 2000px;
+    height: 2000px;
+    z-index: 200;
+    display: flex;
+}
+
+.gridBackground {
+    background-color: var(--background);
+    background-image: 
+        repeating-linear-gradient(0deg, var(--grid), var(--grid) 1px, transparent 1px, transparent 25px),
+        repeating-linear-gradient(90deg, var(--grid), var(--grid) 1px, transparent 1px, transparent 25px);
+    background-size: 25px 25px;
+    background-position: -1px 0px;
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--background);
+    padding: 8px;
+    gap: 8px;
+    border-radius: 4px;
+    border: solid 2px var(--textShadow);
+    z-index: 600;
+    display: none;
+    flex-direction: column;
+    width: 350px;
+}
+
+#menu input {
+    font-size: 16px;
+    color: var(--text);
+    background-color: var(--textShadow);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: expressway;
+    height: 25px;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    height: 25px;
+}
+
+.menuGrid button {
+    background-color: var(--textShadow);
+    color: var(--text);
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: expressway;
+    font-size: 16px;
+    padding: 0 8px;
+    height: 100%;
+    text-align: center;
+}
+
+.selectedButton {
+    background-color: var(--background) !important;
+    color: var(--textShadow) !important;
+    border: solid 2px var(--textShadow) !important;
+    height: 21px !important;
+}
+
+#menuColors {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 25px);
+    gap: 8px;
+}
+
+.colorDiv {
+    cursor: pointer;
+}
+
+#menuPrecursors {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+#nodes {
+    position: relative;
+}
+
+.node {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.nodeShape {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 38px;
+    height: 38px;
+    z-index: 203;
+    background-color: var(--default);
+    border: 2px solid var(--textShadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: move;
+}
+
+.nodeIdeology {
+    border-radius: 100%;
+}
+
+.nodeFaction {
+    border-radius: 4px;
+}
+
+.nodeCurrent {
+    border-radius: 4px;
+    transform: translate(-50%, -50%) rotate(45deg) !important;
+}
+
+.nodeText {
+    position: absolute;
+    width: 100px;
+    z-index: 204;
+    text-align: center;
+    font-size: 16px;
+    font-family: expressway;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: -.5px -.5px 0 var(--textShadow), .5px -.5px 0 var(--textShadow), -.5px .5px 0 var(--textShadow), .5px .5px 0 var(--textShadow), -1px -1px 0 var(--textShadow), 1px -1px 0 var(--textShadow), -1px 1px 0 var(--textShadow), 1px 1px 0 var(--textShadow);
+    color: var(--text);
+    transform: translate(-50%, -50%);
+    user-select: none;
+    cursor: move;
+}
+
+#arrows {
+    position: relative;
+    pointer-events: none;
+}
+
+.arrow {
+    position: absolute;
+    z-index: 201;
+}
+
+.arrowText {
+    position: absolute;
+    z-index: 202;
+}
+
+#settings {
+    z-index: 100;
+    padding: 25px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#settingsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: var(--textShadow);
+    font-family: expressway;
+    font-size: 16px;
+    height: 100px;
+}
+
+#settingsContainer button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--textShadow);
+    color: var(--text);
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: gobold;
+    text-transform: uppercase;
+    width: 200px;
+    height: 100px;
+}
+
+#chartSizeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+}
+
+#settingsColors {
+    display: grid;
+    grid-template-columns: repeat(6, 75px);
+    grid-template-rows: repeat(2, 50px);
+    align-content: space-between;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.settingColor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.settingColorPicker {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    border: 2px solid var(--textShadow);
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.settingColorText {
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    border: 2px solid var(--textShadow);
+    text-align: center;
+    outline: none;
+    box-sizing: border-box;
+}
