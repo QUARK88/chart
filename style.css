@@ -18,7 +18,10 @@
     --textShadow: #ffffff;
     --background: #202020;
     --default: #808080;
-    --grid: #404040;
+    --grid: #303030;
+    --gridGranularity: 25px;
+    --fontSize: 16px;
+    --fontFamily: expressway;
 }
 
 * {
@@ -89,7 +92,7 @@ div {
 
 #settingsToggle {
     position: fixed;
-    z-index: 300;
+    z-index: 201;
     bottom: 25px;
     right: 25px;
     background-color: var(--textShadow);
@@ -118,10 +121,10 @@ div {
 
 .gridBackground {
     background-color: var(--background);
-    background-image: 
-        repeating-linear-gradient(0deg, var(--grid), var(--grid) 1px, transparent 1px, transparent 25px),
-        repeating-linear-gradient(90deg, var(--grid), var(--grid) 1px, transparent 1px, transparent 25px);
-    background-size: 25px 25px;
+    background-image:
+        repeating-linear-gradient(0deg, var(--grid), var(--grid) 1px, transparent 1px, transparent var(--gridGranularity)),
+        repeating-linear-gradient(90deg, var(--grid), var(--grid) 1px, transparent 1px, transparent var(--gridGranularity));
+    background-size: var(--gridGranularity) var(--gridGranularity);
     background-position: -1px 0px;
 }
 
@@ -187,6 +190,7 @@ div {
 
 .colorDiv {
     cursor: pointer;
+    border-radius: 4px;
 }
 
 #menuPrecursors {
@@ -238,8 +242,8 @@ div {
     width: 100px;
     z-index: 204;
     text-align: center;
-    font-size: 16px;
-    font-family: expressway;
+    font-size: var(--fontSize);
+    font-family: var(--fontFamily);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -263,13 +267,15 @@ div {
 .arrowText {
     position: absolute;
     z-index: 202;
+    font-size: var(--fontSize);
+    font-family: var(--fontFamily);
 }
 
 #settings {
     z-index: 100;
     padding: 25px;
     width: 100vw;
-    height: 100vh;
+    height: 1000px;
 }
 
 #settingsContainer {
@@ -292,15 +298,14 @@ div {
     cursor: pointer;
     font-size: 24px;
     font-family: gobold;
-    text-transform: uppercase;
     width: 200px;
-    height: 100px;
+    height: 150px;
 }
 
-#chartSizeContainer {
+.inputContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100px;
 }
 

@@ -1,4 +1,3 @@
-const GRID_SIZE = 25
 const STORAGE_KEY = "chart_data"
 const warning = document.getElementById("warning")
 const chart = document.getElementById("chart")
@@ -14,8 +13,9 @@ const menuColorsContainer = document.getElementById("menuColors")
 const widthPicker = document.getElementById("widthPicker")
 const heightPicker = document.getElementById("heightPicker")
 let data = {
-    metadata: { chartWidth: 2000, chartHeight: 2000, colors: Array(12).fill("#808080") },
-    nodes: {}
+    metadata: {
+        chartWidth: 2000, chartHeight: 2000, fontFamily: "expressway", fontSize: 16, gridGranularity: 25, colors: ["#808080", "#808080", "#808080", "#808080", "#808080", "#808080", "#c02040", "#e06020", "#e0a000", "#40a060", "#0060c0", "#8060c0"]
+    }, nodes: {}
 }
 let draggedNode = null
 let draggedNodeName = null
@@ -24,7 +24,21 @@ let dragOffsetY = 0
 let editingNodeName = null
 let pendingNodePosition = null
 function snap(value) {
-    return GRID_SIZE * Math.round(value / GRID_SIZE)
+    const grid = data.metadata.gridGranularity
+    return (grid * Math.round(value / grid))
+}
+const fontSizeInput = document.getElementById("fontSize")
+const gridGranularityInput = document.getElementById("gridGranularity")
+function setFont(family) {
+    data.metadata.fontFamily = family || "expressway"
+    applySettings()
+    saveData()
+    toggleSettings()
+}
+function applySettings() {
+    document.documentElement.style.setProperty("--fontSize", `${data.metadata.fontSize}px`)
+    document.documentElement.style.setProperty("--gridGranularity", `${data.metadata.gridGranularity}px`)
+    document.documentElement.style.setProperty("--fontFamily", data.metadata.fontFamily)
 }
 function saveData() {
     data.metadata.chartWidth = parseInt(widthPicker.value)
@@ -52,6 +66,19 @@ widthPicker.addEventListener("input", () => {
 heightPicker.addEventListener("input", () => {
     data.metadata.chartHeight = parseInt(heightPicker.value) || 2000
     chart.style.height = `${data.metadata.chartHeight}px`
+    saveData()
+})
+fontSizeInput.value = data.metadata.fontSize
+gridGranularityInput.value = data.metadata.gridGranularity
+applySettings()
+fontSizeInput.addEventListener("input", () => {
+    data.metadata.fontSize = parseFloat(fontSizeInput.value) || 16
+    applySettings()
+    saveData()
+})
+gridGranularityInput.addEventListener("input", () => {
+    data.metadata.gridGranularity = parseInt(gridGranularityInput.value) || 25
+    applySettings()
     saveData()
 })
 function initializeDisplay() {
@@ -180,12 +207,12 @@ document.addEventListener("mousemove", event => {
     const node = getNode(draggedNodeName)
     node.x = x
     node.y = y
+    renderArrows()
 })
 document.addEventListener("mouseup", () => {
     if (!draggedNode)
         return
     saveData()
-    renderArrows()
     draggedNode = null
     draggedNodeName = null
 })
@@ -230,31 +257,13 @@ function closeMenu() {
 }
 function openMenu(x, y) {
     menu.style.display = "flex"
-
-    const margin = 10
-
-    const menuWidth =
-        menu.offsetWidth
-
-    const menuHeight =
-        menu.offsetHeight
-
-    const maxX =
-        window.scrollX +
-        window.innerWidth -
-        menuWidth -
-        margin
-
-    const maxY =
-        window.scrollY +
-        window.innerHeight -
-        menuHeight -
-        margin
-
-    menu.style.left =
-        `${Math.min(x + 25, maxX)}px`
-    menu.style.top =
-        `${Math.min(y + 25, maxY)}px`
+    const margin = 25
+    const menuWidth = menu.offsetWidth
+    const menuHeight = menu.offsetHeight
+    const maxX = window.scrollX + window.innerWidth - menuWidth - margin
+    const maxY = window.scrollY + window.innerHeight - menuHeight - margin
+    menu.style.left = `${Math.min(x + 25, maxX)}px`
+    menu.style.top = `${Math.min(y + 25, maxY)}px`
     menuNameInput.focus()
     menuNameInput.select()
 }
@@ -276,8 +285,7 @@ function buildColorButtons() {
             div.addEventListener("click", () => {
                 selectedColor = index
                 updateColorButtons()
-            }
-            )
+            })
             menuColorsContainer.appendChild(div)
         }
     )
@@ -483,84 +491,48 @@ function renderArrows() {
     )
 }
 function exportData() {
-    const blob = new Blob(
-        [JSON.stringify(data, null, 4)],
-        { type: "application/json" }
-    )
-
+    const blob = new Blob([JSON.stringify(data, null, 4)], { type: "application/json" })
     const url = URL.createObjectURL(blob)
-
     const a = document.createElement("a")
-
     a.href = url
     a.download = "chart-data.json"
-
     document.body.appendChild(a)
-
     a.click()
-
     document.body.removeChild(a)
-
     URL.revokeObjectURL(url)
 }
 function importData() {
     const input = document.createElement("input")
-
     input.type = "file"
     input.accept = ".json,application/json"
-
     input.addEventListener("change", event => {
         const file = event.target.files[0]
-
         if (!file)
             return
-
         const reader = new FileReader()
-
         reader.onload = () => {
             try {
-                const imported =
-                    JSON.parse(reader.result)
-
-                if (
-                    !imported.metadata ||
-                    !imported.nodes
-                ) {
-                    throw new Error(
-                        "Invalid format"
-                    )
+                const imported = JSON.parse(reader.result)
+                if (!imported.metadata || !imported.nodes) {
+                    throw new Error("Invalid format")
                 }
-
                 data = imported
-
                 saveData()
-
-                widthPicker.value =
-                    data.metadata.chartWidth
-
-                heightPicker.value =
-                    data.metadata.chartHeight
-
-                chart.style.width =
-                    `${data.metadata.chartWidth}px`
-
-                chart.style.height =
-                    `${data.metadata.chartHeight}px`
-
+                widthPicker.value = data.metadata.chartWidth
+                heightPicker.value = data.metadata.chartHeight
+                chart.style.width = `${data.metadata.chartWidth}px`
+                chart.style.height = `${data.metadata.chartHeight}px`
                 buildColorButtons()
                 buildSettingsColors()
                 renderNodes()
                 renderArrows()
+                applySettings()
             } catch {
-                alert(
-                    "Invalid chart file"
-                )
+                alert("Invalid chart file")
             }
         }
-
         reader.readAsText(file)
     })
-
     input.click()
     toggleSettings()
 }
