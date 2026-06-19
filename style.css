@@ -96,8 +96,6 @@ div {
     bottom: 25px;
     right: 25px;
     background-color: var(--textShadow);
-    width: 110px;
-    height: 60px;
     cursor: pointer;
     color: var(--text);
     font-family: gobold;
@@ -269,6 +267,10 @@ div {
     z-index: 202;
     font-size: var(--fontSize);
     font-family: var(--fontFamily);
+    text-shadow: -.5px -.5px 0 var(--textShadow), .5px -.5px 0 var(--textShadow), -.5px .5px 0 var(--textShadow), .5px .5px 0 var(--textShadow), -1px -1px 0 var(--textShadow), 1px -1px 0 var(--textShadow), -1px 1px 0 var(--textShadow), 1px 1px 0 var(--textShadow);
+    transform: translate(-50%, -50%);
+    user-select: none;
+    color: var(--text);
 }
 
 #settings {
@@ -288,6 +290,12 @@ div {
     height: 100px;
 }
 
+.buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
 #settingsContainer button {
     display: flex;
     align-items: center;
@@ -296,10 +304,11 @@ div {
     color: var(--text);
     text-align: center;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
     font-family: gobold;
     width: 200px;
-    height: 150px;
+    height: 50px;
+    border-radius: 10px;
 }
 
 .inputContainer {
@@ -349,4 +358,13 @@ div {
     text-align: center;
     outline: none;
     box-sizing: border-box;
+}
+
+#colorPopup {
+    position: fixed;
+    display: none;
+    z-index: 1000;
+    height: 50px;
+    border: solid 2px var(--text);
+    border-radius: 8px;
 }

@@ -12,11 +12,34 @@ const menuPrecursorsContainer = document.getElementById("menuPrecursors")
 const menuColorsContainer = document.getElementById("menuColors")
 const widthPicker = document.getElementById("widthPicker")
 const heightPicker = document.getElementById("heightPicker")
-let data = {
-    metadata: {
-        chartWidth: 2000, chartHeight: 2000, fontFamily: "expressway", fontSize: 16, gridGranularity: 25, colors: ["#808080", "#808080", "#808080", "#808080", "#808080", "#808080", "#c02040", "#e06020", "#e0a000", "#40a060", "#0060c0", "#8060c0"]
-    }, nodes: {}
+const colorEditor = document.getElementById("colorEditor")
+function createDefaultData() {
+    return {
+        metadata: {
+            chartWidth: 2000,
+            chartHeight: 2000,
+            fontFamily: "expressway",
+            fontSize: 16,
+            gridGranularity: 25,
+            colors: [
+                "#808080",
+                "#808080",
+                "#808080",
+                "#808080",
+                "#808080",
+                "#808080",
+                "#c02040",
+                "#e06020",
+                "#e0a000",
+                "#40a060",
+                "#0060c0",
+                "#8060c0"
+            ]
+        },
+        nodes: {}
+    }
 }
+let data = createDefaultData()
 let draggedNode = null
 let draggedNodeName = null
 let dragOffsetX = 0
@@ -72,12 +95,12 @@ fontSizeInput.value = data.metadata.fontSize
 gridGranularityInput.value = data.metadata.gridGranularity
 applySettings()
 fontSizeInput.addEventListener("input", () => {
-    data.metadata.fontSize = parseFloat(fontSizeInput.value) || 16
+    data.metadata.fontSize = parseFloat(fontSizeInput.value)
     applySettings()
     saveData()
 })
 gridGranularityInput.addEventListener("input", () => {
-    data.metadata.gridGranularity = parseInt(gridGranularityInput.value) || 25
+    data.metadata.gridGranularity = parseInt(gridGranularityInput.value)
     applySettings()
     saveData()
 })
@@ -88,7 +111,7 @@ function initializeDisplay() {
 }
 function toggleSettings() {
     settings.style.display = chart.style.display === "flex" ? "flex" : "none"
-    settingsToggle.innerHTML = chart.style.display === "flex" ? "See chart<br>(#)" : "See settings<br>(#)"
+    settingsToggle.innerHTML = chart.style.display === "flex" ? "See chart" : "See settings"
     chart.style.display = chart.style.display === "flex" ? "none" : "flex"
 }
 function toggleGridBackground() {
@@ -147,6 +170,7 @@ function createPrecursorInput(value = "") {
     const input = document.createElement("input")
     input.placeholder = "Precursor node"
     input.value = value
+    input.setAttribute("list", "nodeNames")
     input.addEventListener("input", () => {
         const inputs = [...menuPrecursors.querySelectorAll("input")]
         if (input === inputs[inputs.length - 1] && input.value.trim()) {
@@ -166,6 +190,7 @@ function createNode(name, x, y) {
     data.nodes[name] = { x, y, type: 0, color: 0, hyperlink: "", precursors: [] }
     saveData()
     renderNodes()
+    refreshNodeNames()
 }
 function renameNode(oldName, newName) {
     if (oldName === newName)
@@ -176,6 +201,7 @@ function renameNode(oldName, newName) {
     for (const otherNode of Object.values(data.nodes)) {
         otherNode.precursors = otherNode.precursors.map(precursor => precursor === oldName ? newName : precursor)
     }
+    refreshNodeNames()
 }
 function deleteNode(name) {
     delete data.nodes[name]
@@ -184,6 +210,7 @@ function deleteNode(name) {
     }
     saveData()
     renderNodes()
+    refreshNodeNames()
 }
 function startDragging(event) {
     if (event.button !== 0)
@@ -217,17 +244,22 @@ document.addEventListener("mouseup", () => {
     draggedNodeName = null
 })
 document.addEventListener("keydown", event => {
-    if (event.code === "Backquote")
-        toggleSettings()
-})
-document.addEventListener("keydown", event => {
     if (menu.style.display !== "flex")
         return
     if (event.key === "Escape") {
+        if (colorPopup.style.display !== "none") {
+            colorPopup.style.display = "none"
+            return
+        }
         closeMenu()
         return
     }
     if (event.key === "Enter") {
+        if (colorPopup.style.display !== "none") {
+            event.preventDefault()
+            colorPopup.style.display = "none"
+            return
+        }
         if (document.activeElement.tagName === "TEXTAREA")
             return
         event.preventDefault()
@@ -286,6 +318,43 @@ function buildColorButtons() {
                 selectedColor = index
                 updateColorButtons()
             })
+            div.addEventListener("contextmenu", event => {
+                event.preventDefault()
+                event.stopPropagation()
+                colorPopup.innerHTML = ""
+                const settingColor = document.createElement("div")
+                settingColor.classList.add("settingColor")
+                const settingColorPicker = document.createElement("input")
+                settingColorPicker.classList.add("settingColorPicker")
+                settingColorPicker.type = "color"
+                settingColorPicker.value = data.metadata.colors[index]
+                const settingColorText = document.createElement("input")
+                settingColorText.classList.add("settingColorText")
+                settingColorText.type = "text"
+                settingColorText.value = data.metadata.colors[index]
+                function applyColor(value) {
+                    data.metadata.colors[index] = value
+                    updateNodeColors()
+                    buildColorButtons()
+                    buildSettingsColors()
+                    renderArrows()
+                    saveData()
+                }
+                settingColorPicker.addEventListener("input", () => {
+                    settingColorText.value = settingColorPicker.value
+                    applyColor(settingColorPicker.value)
+                })
+                settingColorText.addEventListener("change", () => {
+                    settingColorPicker.value = settingColorText.value
+                    applyColor(settingColorText.value)
+                })
+                settingColor.appendChild(settingColorPicker)
+                settingColor.appendChild(settingColorText)
+                colorPopup.appendChild(settingColor)
+                colorPopup.style.left = `${event.clientX}px`
+                colorPopup.style.top = `${event.clientY}px`
+                colorPopup.style.display = "block"
+            })
             menuColorsContainer.appendChild(div)
         }
     )
@@ -329,8 +398,7 @@ chart.addEventListener("contextmenu", event => {
     const y = snap(event.clientY - chartRect.top)
     openNewNodeMenu(event.clientX, event.clientY)
     pendingNodePosition = { x, y }
-}
-)
+})
 typeButtons.forEach(
     (button, index) => {
         button.addEventListener("click", () => {
@@ -389,6 +457,8 @@ document.addEventListener("mousedown", event => {
         return
     if (event.target.closest("#menu"))
         return
+    if (event.target.closest("#colorPopup"))
+        return
     closeMenu()
 })
 function buildSettingsColors() {
@@ -445,50 +515,69 @@ function renderArrows() {
     arrows.appendChild(svg)
     Object.entries(data.nodes).forEach(
         ([name, node]) => {
-            node.precursors.forEach(
-                precursorName => {
-                    const precursor = data.nodes[precursorName]
-                    if (!precursor)
-                        return
-                    const x1 = precursor.x
-                    const y1 = precursor.y
-                    const x2 = node.x
-                    const y2 = node.y
-                    const color = data.metadata.colors[node.color]
-                    const path = document.createElementNS("http://www.w3.org/2000/svg", "line")
-                    const dx = x2 - x1
-                    const dy = y2 - y1
-                    const angle = Math.atan2(dy, dx)
-                    let borderDistance
-                    if (node.type === 0) { borderDistance = 20 } else if (node.type === 1) {
-                        borderDistance = 20 / Math.max(Math.abs(Math.cos(angle)), Math.abs(Math.sin(angle)))
-                    } else {
-                        const localAngle = angle - Math.PI / 4
-                        borderDistance = 20 / Math.max(Math.abs(Math.cos(localAngle)), Math.abs(Math.sin(localAngle)))
-                    }
-                    const tipX = x2 - borderDistance * Math.cos(angle)
-                    const tipY = y2 - borderDistance * Math.sin(angle)
-                    path.setAttribute("x1", x1)
-                    path.setAttribute("y1", y1)
-                    path.setAttribute("x2", tipX)
-                    path.setAttribute("y2", tipY)
-                    path.setAttribute("stroke", color)
-                    path.setAttribute("stroke-width", "2")
-                    svg.appendChild(path)
-                    const headLength = 24
-                    const headWidth = 5
-                    const leftX = tipX - headLength * Math.cos(angle) + headWidth * Math.sin(angle)
-                    const leftY = tipY - headLength * Math.sin(angle) - headWidth * Math.cos(angle)
-                    const rightX = tipX - headLength * Math.cos(angle) - headWidth * Math.sin(angle)
-                    const rightY = tipY - headLength * Math.sin(angle) + headWidth * Math.cos(angle)
-                    const head = document.createElementNS("http://www.w3.org/2000/svg", "polygon")
-                    head.setAttribute("points", `${tipX},${tipY} ${leftX},${leftY} ${rightX},${rightY}`)
-                    head.setAttribute("fill", color)
-                    svg.appendChild(head)
+            node.precursors.forEach(precursorEntry => {
+                const parts = precursorEntry.split(";")
+                const precursorName = parts[0].trim()
+                const arrowText = parts.slice(1).join(";").trim()
+                const precursor = data.nodes[precursorName]
+                if (!precursor)
+                    return
+                const x1 = precursor.x
+                const y1 = precursor.y
+                const x2 = node.x
+                const y2 = node.y
+                const color = data.metadata.colors[node.color]
+                const path = document.createElementNS("http://www.w3.org/2000/svg", "line")
+                const dx = x2 - x1
+                const dy = y2 - y1
+                const angle = Math.atan2(dy, dx)
+                let borderDistance
+                if (node.type === 0) { borderDistance = 20 } else if (node.type === 1) {
+                    borderDistance = 20 / Math.max(Math.abs(Math.cos(angle)), Math.abs(Math.sin(angle)))
+                } else {
+                    const localAngle = angle - Math.PI / 4
+                    borderDistance = 20 / Math.max(Math.abs(Math.cos(localAngle)), Math.abs(Math.sin(localAngle)))
                 }
-            )
+                const tipX = x2 - borderDistance * Math.cos(angle)
+                const tipY = y2 - borderDistance * Math.sin(angle)
+                path.setAttribute("x1", x1)
+                path.setAttribute("y1", y1)
+                path.setAttribute("x2", tipX)
+                path.setAttribute("y2", tipY)
+                path.setAttribute("stroke", color)
+                path.setAttribute("stroke-width", "2")
+                svg.appendChild(path)
+                const headLength = 24
+                const headWidth = 5
+                const leftX = tipX - headLength * Math.cos(angle) + headWidth * Math.sin(angle)
+                const leftY = tipY - headLength * Math.sin(angle) - headWidth * Math.cos(angle)
+                const rightX = tipX - headLength * Math.cos(angle) - headWidth * Math.sin(angle)
+                const rightY = tipY - headLength * Math.sin(angle) + headWidth * Math.cos(angle)
+                const head = document.createElementNS("http://www.w3.org/2000/svg", "polygon")
+                head.setAttribute("points", `${tipX},${tipY} ${leftX},${leftY} ${rightX},${rightY}`)
+                head.setAttribute("fill", color)
+                svg.appendChild(head)
+                if (arrowText) {
+                    const text = document.createElement("div")
+                    text.className = "arrowText"
+                    text.textContent = arrowText
+                    text.style.left = `${(x1 + x2) / 2}px`
+                    text.style.top = `${(y1 + y2) / 2}px`
+                    arrows.appendChild(text)
+                }
+            })
         }
     )
+}
+function refreshNodeNames() {
+    nodeNames.innerHTML = ""
+    Object.keys(data.nodes)
+        .sort()
+        .forEach(name => {
+            const option = document.createElement("option")
+            option.value = name
+            nodeNames.appendChild(option)
+        })
 }
 function exportData() {
     const blob = new Blob([JSON.stringify(data, null, 4)], { type: "application/json" })
@@ -527,6 +616,7 @@ function importData() {
                 renderNodes()
                 renderArrows()
                 applySettings()
+                refreshNodeNames()
             } catch {
                 alert("Invalid chart file")
             }
@@ -536,10 +626,35 @@ function importData() {
     input.click()
     toggleSettings()
 }
+resetButton.addEventListener("click", () => {
+    if (
+        !confirm(
+            "This will permanently delete all chart data. Continue?"
+        )
+    )
+        return
+    data = createDefaultData()
+    saveData()
+    widthPicker.value = data.metadata.chartWidth
+    heightPicker.value = data.metadata.chartHeight
+    fontSize.value = data.metadata.fontSize
+    gridGranularity.value = data.metadata.gridGranularity
+    chart.style.width = `${data.metadata.chartWidth}px`
+    chart.style.height = `${data.metadata.chartHeight}px`
+    applySettings()
+    chart.style.width = `${data.metadata.chartWidth}px`
+    chart.style.height = `${data.metadata.chartHeight}px`
+    buildColorButtons()
+    buildSettingsColors()
+    renderNodes()
+    renderArrows()
+    refreshNodeNames()
+})
 buildColorButtons()
 updateTypeButtons()
 updateColorButtons()
 buildSettingsColors()
+refreshNodeNames()
 chart.style.width = `${data.metadata.chartWidth}px`
 chart.style.height = `${data.metadata.chartHeight}px`
 renderNodes()

@@ -17,6 +17,8 @@
 </head>
 
 <body>
+    <div id="colorPopup"></div>
+    <datalist id="nodeNames"></datalist>
     <div id="menu">
         <input type="text" placeholder="Node name">
         <div class="menuGrid">
@@ -37,23 +39,28 @@
     </div>
     <div id="warning">
         <h1>READ THIS</h1>
-        <h2>Press HASHTAG (#) to swap between the chart and the settings</h2>
         <h2>RIGHT CLICK to add a new node</h2>
         <h2>LEFT CLICK AND DRAG to move an existing node</h2>
         <h2>RIGHT CLICK A NODE to edit its properties</h2>
+        <h2>Separate a precursor and its arrow text with a SEMICOLON (;)</h2>
         <h2>Don't try using this on mobile, this is made for PC</h2>
         <button onclick="initializeDisplay()">OK i get it</button>
     </div>
-    <button id="settingsToggle" onclick="toggleSettings()">See settings<br>(#)</button>
+    <button id="settingsToggle" onclick="toggleSettings()">See settings</button>
     <div id="chart">
         <div id="nodes"></div>
         <div id="arrows"></div>
     </div>
     <div id="settings">
         <div id="settingsContainer">
-            <button onclick="exportData()">Export data</button>
-            <button onclick="importData()">Import data</button>
-            <button onclick="toggleGridBackground()">Toggle grid</button>
+            <div class="buttonContainer">
+                <button onclick="exportData()">Export data</button>
+                <button onclick="importData()">Import data</button>
+                <button onclick="toggleGridBackground()">Toggle grid</button>
+                <button onclick="setFont('aptly')" style="font-family:aptly">Aptly font</button>
+                <button onclick="setFont('expressway')" style="font-family:expressway">Expressway font</button>
+                <button onclick="setFont('gobold')" style="font-family:gobold">Gobold font</button>
+            </div>
             <div class="inputContainer">
                 <label for="widthPicker">Chart width:</label>
                 <input id="widthPicker" type="number" step="25" min="25" value="2000" name="widthPicker">
@@ -61,19 +68,24 @@
                 <input id="heightPicker" type="number" step="25" min="25" value="2000" name="heightPicker">
             </div>
             <div id="settingsColors"></div>
-            <button onclick="setFont('aptly')" style="font-family:aptly">Aptly font</button>
-            <button onclick="setFont('expressway')" style="font-family:expressway">Expressway font</button>
-            <button onclick="setFont('gobold')" style="font-family:gobold">Gobold font</button>
+            <div class="buttonContainer">
+                <button id="screenshotButton">Save as PNG image</button>
+                <button id="resetButton">Reset all data</button>
+                <button id="idk">Useless button</button>
+                <button id="canchart">Useless button</button>
+                <button id="uschart">Useless button</button>
+                <button id="frchart">Useless button</button>
+            </div>
             <div class="inputContainer">
                 <label for="fontSize">Font size:</label>
                 <input id="fontSize" type="number" step=".5" min="0" value="16" name="fontSize">
                 <label for="gridGranularity">Grid granularity:</label>
                 <input id="gridGranularity" type="number" step="1" min="1" value="25" name="gridGranularity">
             </div>
-            <button id="screenshotButton">Save as PNG image</button>
         </div>
     </div>
 </body>
 <script src="./script.js"></script>
 <script src="./screenshot.js" type="module"></script>
+
 </html>
