@@ -530,9 +530,10 @@ saveButton.addEventListener("click", () => {
 document.addEventListener("mousedown", event => {
     if (menu.style.display !== "flex")
         return
-    if (event.target.closest("#menu"))
+    if (event.target.closest("#menu")) {
         colorPopup.style.display = "none"
         return
+    }
     if (event.target.closest("#colorPopup"))
         return
     closeMenu()
