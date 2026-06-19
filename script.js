@@ -178,7 +178,7 @@ function createNodeElement(name, nodeData) {
     const text = document.createElement("a")
     text.className = "nodeText"
     text.textContent = name
-    if (name.length >= 32) {
+    if (name.length >= 36) {
         text.style.width = "calc(var(--fontSize)*13)"
     }
     text.draggable = false
@@ -687,6 +687,8 @@ function loadChartData(imported) {
     refreshNodeNames()
     undoStack.length = 0
     redoStack.length = 0
+    fontSize.value = data.metadata.fontSize
+    gridGranularity.value = data.metadata.gridGranularity
 }
 async function loadBuiltInChart(path) {
     if (!confirm("This will permanently delete all chart data. Continue?"))
