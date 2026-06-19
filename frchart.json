@@ -1,0 +1,1508 @@
+{
+    "metadata": {
+        "chartWidth": 1400,
+        "chartHeight": 1950,
+        "fontFamily": "aptly",
+        "fontSize": 11,
+        "gridGranularity": 25,
+        "colors": [
+            "#808080",
+            "#c00040",
+            "#e06020",
+            "#e0a000",
+            "#40a060",
+            "#0060c0",
+            "#808080",
+            "#808080",
+            "#808080",
+            "#808080",
+            "#808080",
+            "#808080"
+        ]
+    },
+    "nodes": {
+        "Agrarianism": {
+            "x": 650,
+            "y": 1100,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Agrarianism",
+            "precursors": []
+        },
+        "Alter-Globalism": {
+            "x": 200,
+            "y": 1575,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Alter-globalization",
+            "precursors": [
+                "New Left"
+            ]
+        },
+        "Anti-Boulangism": {
+            "x": 675,
+            "y": 425,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Political_moderate",
+            "precursors": []
+        },
+        "Anti-Clericalism": {
+            "x": 400,
+            "y": 250,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Anti-clericalism#Third_Republic",
+            "precursors": [
+                "Jacobinism"
+            ]
+        },
+        "Anti-Communist Laborism": {
+            "x": 525,
+            "y": 950,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Labour_movement",
+            "precursors": [
+                "Revisionist Socialism"
+            ]
+        },
+        "Anti-Dreyfus Sentiment": {
+            "x": 1325,
+            "y": 425,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Dreyfus_affair",
+            "precursors": []
+        },
+        "Anti-Parliamentarism": {
+            "x": 1050,
+            "y": 600,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Parliamentary_system#Disadvantages",
+            "precursors": []
+        },
+        "Anti-Prussian Sentiment": {
+            "x": 400,
+            "y": 325,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Anti-German_sentiment",
+            "precursors": []
+        },
+        "Anti-Secularism": {
+            "x": 1125,
+            "y": 150,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Catholic_Church_in_France",
+            "precursors": []
+        },
+        "Avant-Garde Art Movement": {
+            "x": 125,
+            "y": 1075,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Avant-garde",
+            "precursors": []
+        },
+        "Bakuninism": {
+            "x": 100,
+            "y": 200,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Collectivist_anarchism",
+            "precursors": [
+                "Mutualism"
+            ]
+        },
+        "Blanquism": {
+            "x": 325,
+            "y": 150,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Blanquism",
+            "precursors": [
+                "Anti-Clericalism",
+                "Jacobinism"
+            ]
+        },
+        "Bonapartists": {
+            "x": 625,
+            "y": 150,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Bonapartists_(political_party)",
+            "precursors": [
+                "Caesarism",
+                "Classical Liberalism",
+                "Constitutional Monarchism",
+                "Plebiscitary Populism",
+                "Saint-Simonianism"
+            ]
+        },
+        "Boulangists": {
+            "x": 525,
+            "y": 250,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Georges_Ernest_Boulanger",
+            "precursors": [
+                "Anti-Parliamentarism",
+                "Anti-Prussian Sentiment",
+                "Blanquism",
+                "Bonapartists",
+                "French Nationalism",
+                "Institutional Revisionism",
+                "Plebiscitary Populism"
+            ]
+        },
+        "Bourbon Loyalism": {
+            "x": 1175,
+            "y": 300,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Bourbon_Restoration_in_France",
+            "precursors": []
+        },
+        "Caesarism": {
+            "x": 625,
+            "y": 75,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Caesarism",
+            "precursors": [
+                "Plebiscitary Populism"
+            ]
+        },
+        "Catholic Feminism": {
+            "x": 1325,
+            "y": 650,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Christian_feminism",
+            "precursors": [
+                "Political Catholicism"
+            ]
+        },
+        "Central Revolutionary Committee": {
+            "x": 275,
+            "y": 475,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Central_Revolutionary_Committee",
+            "precursors": [
+                "Blanquism"
+            ]
+        },
+        "Classical Liberalism": {
+            "x": 775,
+            "y": 225,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Classical_liberalism",
+            "precursors": []
+        },
+        "Colbertism": {
+            "x": 1325,
+            "y": 1725,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Colbertism",
+            "precursors": []
+        },
+        "Communards": {
+            "x": 175,
+            "y": 250,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Communards",
+            "precursors": [
+                "Anti-Prussian Sentiment",
+                "Bakuninism",
+                "Blanquism",
+                "Mutualism"
+            ]
+        },
+        "Communist Party": {
+            "x": 75,
+            "y": 775,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/French_Communist_Party",
+            "precursors": [
+                "FSWI",
+                "Marxism-Leninism",
+                "Planism"
+            ]
+        },
+        "Conservatism": {
+            "x": 950,
+            "y": 75,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Conservatism",
+            "precursors": []
+        },
+        "Conservative Revolution": {
+            "x": 1150,
+            "y": 925,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Conservative_Revolution",
+            "precursors": []
+        },
+        "Constitutional Monarchism": {
+            "x": 775,
+            "y": 75,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Constitutional_monarchy",
+            "precursors": []
+        },
+        "Corporatism": {
+            "x": 1150,
+            "y": 850,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Corporatism",
+            "precursors": []
+        },
+        "Council Communism": {
+            "x": 75,
+            "y": 875,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Council_communism",
+            "precursors": []
+        },
+        "Democratic Alliance": {
+            "x": 725,
+            "y": 575,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Democratic_Republican_Alliance",
+            "precursors": [
+                "Progressive Republicans"
+            ]
+        },
+        "Democratic and Socialist Left": {
+            "x": 350,
+            "y": 1250,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Federation_of_the_Democratic_and_Socialist_Left",
+            "precursors": [
+                "FSWI",
+                "New Left",
+                "Radical-Socialist Party",
+                "Republican Institutions"
+            ]
+        },
+        "Democratic and Socialist Union": {
+            "x": 575,
+            "y": 1025,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Democratic_and_Socialist_Union_of_the_Resistance",
+            "precursors": [
+                "Anti-Communist Laborism"
+            ]
+        },
+        "Democratic Movement": {
+            "x": 775,
+            "y": 1675,
+            "type": 2,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Democratic_Movement_(France)",
+            "precursors": [
+                "Union for French Democracy"
+            ]
+        },
+        "Democratic Socialism": {
+            "x": 325,
+            "y": 1650,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Democratic_socialism",
+            "precursors": []
+        },
+        "Eco-Socialism": {
+            "x": 175,
+            "y": 1725,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Eco-socialism",
+            "precursors": [
+                "Alter-Globalism"
+            ]
+        },
+        "Elitism": {
+            "x": 1225,
+            "y": 1850,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Elitism",
+            "precursors": []
+        },
+        "Eurofederalism": {
+            "x": 550,
+            "y": 1675,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Federalisation_of_the_European_Union",
+            "precursors": [
+                "European Unionism"
+            ]
+        },
+        "European Unionism": {
+            "x": 700,
+            "y": 1625,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Pro-Europeanism",
+            "precursors": [
+                "Pan-Europeanism"
+            ]
+        },
+        "Euroscepticism": {
+            "x": 925,
+            "y": 1725,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Euroscepticism#France",
+            "precursors": []
+        },
+        "Executive Centralism": {
+            "x": 1050,
+            "y": 1075,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Presidential_system",
+            "precursors": []
+        },
+        "Fascism": {
+            "x": 1325,
+            "y": 775,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Fascism",
+            "precursors": [
+                "French Nationalism"
+            ]
+        },
+        "Federal Monarchism": {
+            "x": 1225,
+            "y": 375,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Federal_monarchy",
+            "precursors": []
+        },
+        "Federation of the Socialist Workers": {
+            "x": 75,
+            "y": 350,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Federation_of_the_Socialist_Workers_of_France",
+            "precursors": [
+                "Communards",
+                "Possibilism"
+            ]
+        },
+        "Fiery Cross": {
+            "x": 975,
+            "y": 800,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Croix-de-Feu",
+            "precursors": [
+                "Catholic Feminism",
+                "Corporatism",
+                "French Nationalism",
+                "Political Catholicism",
+                "Social Catholicism"
+            ]
+        },
+        "France Unbowed": {
+            "x": 250,
+            "y": 1800,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/La_France_Insoumise",
+            "precursors": [
+                "Democratic Socialism",
+                "Eco-Socialism",
+                "Left Party",
+                "Left-Wing Populism"
+            ]
+        },
+        "Francist Movement": {
+            "x": 1325,
+            "y": 900,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Mouvement_Franciste",
+            "precursors": [
+                "Corporatism",
+                "Fascism"
+            ]
+        },
+        "French Action": {
+            "x": 1250,
+            "y": 475,
+            "type": 2,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Action_Française",
+            "precursors": [
+                "Anti-Dreyfus Sentiment",
+                "Catholic Feminism",
+                "Federal Monarchism",
+                "French Nationalism",
+                "Fusionist Orléanists",
+                "Integralism",
+                "Political Catholicism",
+                "Positivism",
+                "Reactionaryism"
+            ]
+        },
+        "French Nationalism": {
+            "x": 1000,
+            "y": 500,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/French_nationalism#1814-1914",
+            "precursors": []
+        },
+        "French Socialist Party": {
+            "x": 75,
+            "y": 550,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/French_Socialist_Party_(1902)",
+            "precursors": [
+                "Central Revolutionary Committee",
+                "Social Democracy",
+                "Workers' Party"
+            ]
+        },
+        "FSWI": {
+            "x": 175,
+            "y": 650,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/French_Section_of_the_Workers'_International",
+            "precursors": [
+                "French Socialist Party",
+                "Internationalism",
+                "Revolutionary Socialist Workers' Party",
+                "Social Democracy"
+            ]
+        },
+        "Fusionist Orléanists": {
+            "x": 1000,
+            "y": 250,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Orléanist#Fusion_and_restoration_project",
+            "precursors": [
+                "Anti-Secularism",
+                "Conservatism",
+                "French Nationalism",
+                "Legitimists",
+                "Pure Orleanists"
+            ]
+        },
+        "Gaullism": {
+            "x": 975,
+            "y": 1025,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Gaullism",
+            "precursors": [
+                "Executive Centralism",
+                "Paternalistic Conservatism",
+                "Realpolitik",
+                "Social Party"
+            ]
+        },
+        "Generation.s": {
+            "x": 475,
+            "y": 1800,
+            "type": 2,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Génération.s",
+            "precursors": [
+                "Democratic Socialism",
+                "Eco-Socialism",
+                "Eurofederalism",
+                "Socialist Party"
+            ]
+        },
+        "GRECE": {
+            "x": 1250,
+            "y": 1250,
+            "type": 2,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/GRECE",
+            "precursors": [
+                "Conservative Revolution",
+                "Neopaganism",
+                "Tixier-Vignancour Committees"
+            ]
+        },
+        "Heterodox Marxism": {
+            "x": 225,
+            "y": 1350,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Neo-Marxism",
+            "precursors": [
+                "Situationist International"
+            ]
+        },
+        "Identitarian Bloc": {
+            "x": 1125,
+            "y": 1675,
+            "type": 2,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Les_Identitaires",
+            "precursors": [
+                "Identitarianism",
+                "National Front",
+                "National Republicans",
+                "Right-Wing Populism"
+            ]
+        },
+        "Identitarianism": {
+            "x": 1075,
+            "y": 1425,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Identitarian_movement",
+            "precursors": [
+                "New Right"
+            ]
+        },
+        "Independent Radicals": {
+            "x": 625,
+            "y": 575,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Independent_Radicals",
+            "precursors": [
+                "Republican Union"
+            ]
+        },
+        "Independent Republicans": {
+            "x": 725,
+            "y": 1250,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Independent_Republicans",
+            "precursors": [
+                "Eurofederalism",
+                "Independents and Peasants",
+                "Liberal Conservatism"
+            ]
+        },
+        "Independents and Peasants": {
+            "x": 750,
+            "y": 1075,
+            "type": 2,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/National_Centre_of_Independents_and_Peasants",
+            "precursors": [
+                "Agrarianism",
+                "Democratic Alliance",
+                "Liberal Conservatism",
+                "Rally of Republican Lefts",
+                "Republican Party of Liberty"
+            ]
+        },
+        "Institutional Revisionism": {
+            "x": 625,
+            "y": 225,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Structural_fix",
+            "precursors": []
+        },
+        "Integralism": {
+            "x": 1200,
+            "y": 550,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Integral_nationalism",
+            "precursors": [
+                "Anti-Parliamentarism",
+                "French Nationalism",
+                "Political Catholicism"
+            ]
+        },
+        "Internationalism": {
+            "x": 175,
+            "y": 575,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Second_International",
+            "precursors": []
+        },
+        "Jacobinism": {
+            "x": 450,
+            "y": 75,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Jacobinism",
+            "precursors": []
+        },
+        "Left Party": {
+            "x": 250,
+            "y": 1700,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Left_Party_(France)",
+            "precursors": [
+                "Democratic Socialism",
+                "Euroscepticism",
+                "Left-Wing Populism",
+                "New Left",
+                "Socialist Party"
+            ]
+        },
+        "Left-Communism": {
+            "x": 150,
+            "y": 1125,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Left_communism",
+            "precursors": []
+        },
+        "Left-Wing Populism": {
+            "x": 325,
+            "y": 1850,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Left-wing_populism",
+            "precursors": []
+        },
+        "Legitimists": {
+            "x": 1200,
+            "y": 225,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Legitimists",
+            "precursors": [
+                "Anti-Secularism",
+                "Bourbon Loyalism",
+                "Reactionaryism",
+                "Ultra-Royalists"
+            ]
+        },
+        "Liberal Action": {
+            "x": 875,
+            "y": 350,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Popular_Liberal_Action",
+            "precursors": [
+                "Classical Liberalism",
+                "Fusionist Orléanists",
+                "Pro-Dreyfus Sentiment",
+                "Social Catholicism"
+            ]
+        },
+        "Liberal Conservatism": {
+            "x": 800,
+            "y": 1350,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Liberal_conservatism",
+            "precursors": []
+        },
+        "Liberal Union": {
+            "x": 750,
+            "y": 500,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Progressive_Republicans_(France)#Liberal_Republican_Union",
+            "precursors": [
+                "Anti-Boulangism",
+                "Progressive Republicans"
+            ]
+        },
+        "Marxism": {
+            "x": 150,
+            "y": 475,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Marxism",
+            "precursors": []
+        },
+        "Marxism-Leninism": {
+            "x": 175,
+            "y": 875,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Marxism–Leninism",
+            "precursors": [
+                "Planism"
+            ]
+        },
+        "Moderate Republicans": {
+            "x": 525,
+            "y": 400,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Moderate_Republicans_(France,_1871–1901)",
+            "precursors": [
+                "Anti-Clericalism",
+                "Classical Liberalism",
+                "Fusionist Orléanists"
+            ]
+        },
+        "Mutualism": {
+            "x": 175,
+            "y": 175,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Mutualism_(economic_theory)#Formulation_by_Proudhon",
+            "precursors": [
+                "Saint-Simonianism"
+            ]
+        },
+        "National Front": {
+            "x": 1175,
+            "y": 1375,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/National_Rally#Foundation_(1972–1973)",
+            "precursors": [
+                "Identitarianism",
+                "New Order",
+                "New Right",
+                "Poujadism",
+                "Right-Wing Populism",
+                "Tixier-Vignancour Committees"
+            ]
+        },
+        "National Popular Rally": {
+            "x": 325,
+            "y": 975,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/National_Popular_Rally",
+            "precursors": [
+                "FSWI",
+                "Neosocialism",
+                "Pan-Europeanism"
+            ]
+        },
+        "National Rally": {
+            "x": 950,
+            "y": 1800,
+            "type": 2,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/National_Rally",
+            "precursors": [
+                "Euroscepticism",
+                "National Front",
+                "Right-Wing Populism"
+            ]
+        },
+        "National Republicans": {
+            "x": 1175,
+            "y": 1600,
+            "type": 2,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/National_Republican_Movement",
+            "precursors": [
+                "National Front",
+                "Right-Wing Populism"
+            ]
+        },
+        "Neopaganism": {
+            "x": 1250,
+            "y": 1075,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Modern_paganism#Ethnic_and_regional",
+            "precursors": [
+                "Conservative Revolution"
+            ]
+        },
+        "Neosocialism": {
+            "x": 325,
+            "y": 850,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Neosocialism",
+            "precursors": [
+                "Blanquism",
+                "Corporatism",
+                "FSWI",
+                "Planism",
+                "Republican-Socialist Party"
+            ]
+        },
+        "New Left": {
+            "x": 325,
+            "y": 1325,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/New_Left#Development_in_Europe",
+            "precursors": [
+                "Heterodox Marxism",
+                "Situationist International"
+            ]
+        },
+        "New Order": {
+            "x": 1325,
+            "y": 1250,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Ordre_Nouveau_(1960s)",
+            "precursors": [
+                "West"
+            ]
+        },
+        "New Right": {
+            "x": 1075,
+            "y": 1250,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Nouvelle_Droite",
+            "precursors": [
+                "Conservative Revolution",
+                "GRECE"
+            ]
+        },
+        "Pan-Europeanism": {
+            "x": 450,
+            "y": 1075,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Pan-European_identity",
+            "precursors": []
+        },
+        "Paternalistic Conservatism": {
+            "x": 650,
+            "y": 1175,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Paternalistic_conservatism",
+            "precursors": [
+                "Neosocialism"
+            ]
+        },
+        "Planism": {
+            "x": 275,
+            "y": 700,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Planned_economy",
+            "precursors": []
+        },
+        "Plebiscitary Populism": {
+            "x": 500,
+            "y": 175,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Referendum",
+            "precursors": []
+        },
+        "Political Catholicism": {
+            "x": 1325,
+            "y": 525,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Catholic_Church_and_politics",
+            "precursors": []
+        },
+        "Popular Democracy": {
+            "x": 1275,
+            "y": 1475,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Popular_democracy",
+            "precursors": []
+        },
+        "Popular Party": {
+            "x": 1250,
+            "y": 975,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/French_Popular_Party",
+            "precursors": [
+                "Corporatism",
+                "Young Patriots"
+            ]
+        },
+        "Positivism": {
+            "x": 1100,
+            "y": 425,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Positivism",
+            "precursors": []
+        },
+        "Possibilism": {
+            "x": 75,
+            "y": 275,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Possibilism_(politics)",
+            "precursors": []
+        },
+        "Poujadism": {
+            "x": 1250,
+            "y": 1400,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Poujadism",
+            "precursors": []
+        },
+        "Pro-Dreyfus Sentiment": {
+            "x": 950,
+            "y": 425,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Dreyfus_affair",
+            "precursors": []
+        },
+        "Progressive Republicans": {
+            "x": 625,
+            "y": 475,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Progressive_Republicans_(France)",
+            "precursors": [
+                "Moderate Republicans"
+            ]
+        },
+        "Pure Orleanists": {
+            "x": 775,
+            "y": 150,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Orléanist",
+            "precursors": [
+                "Classical Liberalism",
+                "Constitutional Monarchism"
+            ]
+        },
+        "Radical Liberalism": {
+            "x": 525,
+            "y": 325,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Classical_radicalism",
+            "precursors": [
+                "Classical Liberalism"
+            ]
+        },
+        "Radical Republicans": {
+            "x": 175,
+            "y": 400,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Classical_radicalism#France",
+            "precursors": [
+                "Anti-Clericalism",
+                "Anti-Prussian Sentiment",
+                "Communards",
+                "Radical Liberalism",
+                "Utopian Socialism"
+            ]
+        },
+        "Radical-Socialist Party": {
+            "x": 525,
+            "y": 575,
+            "type": 2,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Radical_Party_(France)",
+            "precursors": [
+                "Republican Union"
+            ]
+        },
+        "Rally for the Republic": {
+            "x": 875,
+            "y": 1400,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Rally_for_the_Republic",
+            "precursors": [
+                "Euroscepticism",
+                "Liberal Conservatism",
+                "Union of Democrats for the Republic"
+            ]
+        },
+        "Rally of Republican Lefts": {
+            "x": 675,
+            "y": 1025,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Rally_of_Republican_Lefts",
+            "precursors": [
+                "Democratic and Socialist Union",
+                "Independent Radicals",
+                "Radical-Socialist Party",
+                "Republican-Socialist Party",
+                "Social Party"
+            ]
+        },
+        "Rally of the French People": {
+            "x": 950,
+            "y": 1100,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Rally_of_the_French_People",
+            "precursors": [
+                "Executive Centralism",
+                "Gaullism",
+                "Paternalistic Conservatism"
+            ]
+        },
+        "Reactionaryism": {
+            "x": 1325,
+            "y": 300,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Reactionary",
+            "precursors": []
+        },
+        "Realpolitik": {
+            "x": 1050,
+            "y": 975,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "https://en.wikipedia.org/wiki/Realpolitik",
+            "precursors": []
+        },
+        "Reconquest": {
+            "x": 1325,
+            "y": 1850,
+            "type": 2,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Reconquête",
+            "precursors": [
+                "Colbertism",
+                "Elitism",
+                "Euroscepticism",
+                "National Front",
+                "Right-Wing Populism"
+            ]
+        },
+        "Red and Green Alternative": {
+            "x": 75,
+            "y": 1475,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Alternative_Rouge_et_Verte",
+            "precursors": [
+                "Eco-Socialism",
+                "Unified Socialist Party",
+                "Workers' Self-Management"
+            ]
+        },
+        "Renaissance": {
+            "x": 700,
+            "y": 1800,
+            "type": 2,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Renaissance_(French_political_party)",
+            "precursors": [
+                "European Unionism",
+                "Socialist Party",
+                "The Republicans",
+                "Third Way"
+            ]
+        },
+        "Republican Federation": {
+            "x": 825,
+            "y": 575,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Republican_Federation",
+            "precursors": [
+                "Liberal Action",
+                "Liberal Union"
+            ]
+        },
+        "Republican Institutions": {
+            "x": 450,
+            "y": 1200,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Convention_of_Republican_Institutions",
+            "precursors": [
+                "Democratic and Socialist Union"
+            ]
+        },
+        "Republican Party of Liberty": {
+            "x": 850,
+            "y": 1025,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Republican_Party_of_Liberty",
+            "precursors": [
+                "Republican Federation"
+            ]
+        },
+        "Republican Union": {
+            "x": 400,
+            "y": 425,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Republican_Union_(France)",
+            "precursors": [
+                "Anti-Prussian Sentiment",
+                "Moderate Republicans",
+                "Radical Republicans"
+            ]
+        },
+        "Republican-Socialist Party": {
+            "x": 400,
+            "y": 675,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Republican-Socialist_Party",
+            "precursors": [
+                "Revisionist Socialism"
+            ]
+        },
+        "Revisionist Socialism": {
+            "x": 400,
+            "y": 500,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Reformism#Reformist_socialism",
+            "precursors": []
+        },
+        "Revolutionary Socialist Workers' Party": {
+            "x": 275,
+            "y": 550,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Revolutionary_Socialist_Workers'_Party_(France)",
+            "precursors": [
+                "Syndicalism"
+            ]
+        },
+        "Right-Wing Populism": {
+            "x": 1250,
+            "y": 1775,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Right-wing_populism#France",
+            "precursors": []
+        },
+        "Saint-Simonianism": {
+            "x": 200,
+            "y": 75,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Henri_de_Saint-Simon#Ideas",
+            "precursors": []
+        },
+        "Situationist International": {
+            "x": 75,
+            "y": 1200,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Situationist_International",
+            "precursors": [
+                "Avant-Garde Art Movement",
+                "Council Communism",
+                "Left-Communism",
+                "Workers' Self-Management"
+            ]
+        },
+        "Social Catholicism": {
+            "x": 900,
+            "y": 650,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Catholic_social_teaching",
+            "precursors": [
+                "Catholic Feminism"
+            ]
+        },
+        "Social Darwinism": {
+            "x": 1325,
+            "y": 1525,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Social_Darwinism",
+            "precursors": []
+        },
+        "Social Democracy": {
+            "x": 75,
+            "y": 650,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Social_democracy",
+            "precursors": []
+        },
+        "Social Party": {
+            "x": 950,
+            "y": 900,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/French_Social_Party",
+            "precursors": [
+                "Corporatism",
+                "Fiery Cross",
+                "Social Catholicism"
+            ]
+        },
+        "Socialist Feminism": {
+            "x": 150,
+            "y": 1500,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Socialist_feminism",
+            "precursors": [
+                "Heterodox Marxism",
+                "New Left"
+            ]
+        },
+        "Socialist Party": {
+            "x": 525,
+            "y": 1325,
+            "type": 2,
+            "color": 2,
+            "hyperlink": "https://en.wikipedia.org/wiki/Socialist_Party_(France)",
+            "precursors": [
+                "Democratic and Socialist Left",
+                "European Unionism",
+                "New Left",
+                "Republican Institutions",
+                "Third Way"
+            ]
+        },
+        "Syndicalism": {
+            "x": 275,
+            "y": 625,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Syndicalism",
+            "precursors": []
+        },
+        "The Aftermath": {
+            "x": 150,
+            "y": 1875,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/L'Après",
+            "precursors": [
+                "Eco-Socialism",
+                "France Unbowed",
+                "Left-Wing Populism",
+                "Together"
+            ]
+        },
+        "The Alternatives": {
+            "x": 75,
+            "y": 1625,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Les_Alternatifs",
+            "precursors": [
+                "Alter-Globalism",
+                "Eco-Socialism",
+                "Red and Green Alternative",
+                "Socialist Feminism"
+            ]
+        },
+        "The Clock's Club": {
+            "x": 1325,
+            "y": 1400,
+            "type": 2,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Carrefour_de_l'Horloge",
+            "precursors": [
+                "GRECE",
+                "Popular Democracy",
+                "Social Darwinism"
+            ]
+        },
+        "The Republicans": {
+            "x": 800,
+            "y": 1775,
+            "type": 2,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/The_Republicans_(France)",
+            "precursors": [
+                "European Unionism",
+                "Union for a Popular Movement"
+            ]
+        },
+        "Third Way": {
+            "x": 625,
+            "y": 1750,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Third_Way",
+            "precursors": []
+        },
+        "Tixier-Vignancour Committees": {
+            "x": 1175,
+            "y": 1175,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Tixier-Vignancour_Committees",
+            "precursors": []
+        },
+        "Together": {
+            "x": 75,
+            "y": 1725,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Ensemble!",
+            "precursors": [
+                "Eco-Socialism",
+                "The Alternatives",
+                "Trotskyism"
+            ]
+        },
+        "Trotskyism": {
+            "x": 75,
+            "y": 1825,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Trotskyism",
+            "precursors": []
+        },
+        "Ultra-Royalists": {
+            "x": 1200,
+            "y": 75,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Ultra-royalist",
+            "precursors": [
+                "Anti-Secularism",
+                "Reactionaryism"
+            ]
+        },
+        "Unified Socialist Party": {
+            "x": 250,
+            "y": 1225,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Unified_Socialist_Party_(France)",
+            "precursors": [
+                "Communist Party",
+                "Workers' Self-Management"
+            ]
+        },
+        "Union for a Popular Movement": {
+            "x": 825,
+            "y": 1625,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Union_for_a_Popular_Movement",
+            "precursors": [
+                "European Unionism",
+                "Liberal Conservatism",
+                "Rally for the Republic"
+            ]
+        },
+        "Union for French Democracy": {
+            "x": 725,
+            "y": 1425,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "https://en.wikipedia.org/wiki/Union_for_French_Democracy",
+            "precursors": [
+                "Eurofederalism",
+                "Independent Republicans",
+                "Liberal Conservatism"
+            ]
+        },
+        "Union for the New Republic": {
+            "x": 950,
+            "y": 1175,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Union_for_the_New_Republic",
+            "precursors": [
+                "Paternalistic Conservatism",
+                "Rally of the French People"
+            ]
+        },
+        "Union of Democrats for the Republic": {
+            "x": 950,
+            "y": 1250,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "https://en.wikipedia.org/wiki/Union_of_Democrats_for_the_Republic",
+            "precursors": [
+                "Euroscepticism",
+                "Paternalistic Conservatism",
+                "Union for the New Republic"
+            ]
+        },
+        "Utopian Socialism": {
+            "x": 275,
+            "y": 250,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Utopian_socialism",
+            "precursors": [
+                "Saint-Simonianism"
+            ]
+        },
+        "West": {
+            "x": 1325,
+            "y": 1175,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Occident_(movement)",
+            "precursors": [
+                "Young Nation"
+            ]
+        },
+        "Workers' Party": {
+            "x": 75,
+            "y": 425,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/French_Workers'_Party",
+            "precursors": [
+                "Federation of the Socialist Workers",
+                "Marxism"
+            ]
+        },
+        "Workers' Self-Management": {
+            "x": 175,
+            "y": 1175,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "https://en.wikipedia.org/wiki/Workers'_self-management",
+            "precursors": []
+        },
+        "Young Nation": {
+            "x": 1325,
+            "y": 1050,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Jeune_Nation",
+            "precursors": [
+                "Francist Movement"
+            ]
+        },
+        "Young Patriots": {
+            "x": 1250,
+            "y": 825,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "https://en.wikipedia.org/wiki/Jeunesses_Patriotes",
+            "precursors": [
+                "Anti-Parliamentarism",
+                "Boulangists"
+            ]
+        }
+    }
+}

@@ -62,6 +62,9 @@ function applySettings() {
     document.documentElement.style.setProperty("--fontSize", `${data.metadata.fontSize}px`)
     document.documentElement.style.setProperty("--gridGranularity", `${data.metadata.gridGranularity}px`)
     document.documentElement.style.setProperty("--fontFamily", data.metadata.fontFamily)
+    chart.style.width = `${data.metadata.chartWidth}px`
+    chart.style.height = `${data.metadata.chartHeight}px`
+    console.log(`${data.metadata.chartHeight}px`)
 }
 function saveData() {
     data.metadata.chartWidth = parseInt(widthPicker.value)
@@ -113,6 +116,7 @@ function toggleSettings() {
     settings.style.display = chart.style.display === "flex" ? "flex" : "none"
     settingsToggle.innerHTML = chart.style.display === "flex" ? "See chart" : "See settings"
     chart.style.display = chart.style.display === "flex" ? "none" : "flex"
+    document.documentElement.scrollTop = 0
 }
 function toggleGridBackground() {
     chart.classList.toggle("gridBackground")
@@ -606,11 +610,8 @@ function importData() {
                     throw new Error("Invalid format")
                 }
                 data = imported
-                saveData()
-                widthPicker.value = data.metadata.chartWidth
-                heightPicker.value = data.metadata.chartHeight
-                chart.style.width = `${data.metadata.chartWidth}px`
-                chart.style.height = `${data.metadata.chartHeight}px`
+                console.log(data)
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(data))
                 buildColorButtons()
                 buildSettingsColors()
                 renderNodes()
@@ -639,8 +640,6 @@ resetButton.addEventListener("click", () => {
     saveData()
     fontSize.value = data.metadata.fontSize
     gridGranularity.value = data.metadata.gridGranularity
-    chart.style.width = `${data.metadata.chartWidth}px`
-    chart.style.height = `${data.metadata.chartHeight}px`
     applySettings()
     buildColorButtons()
     buildSettingsColors()
@@ -654,6 +653,4 @@ updateTypeButtons()
 updateColorButtons()
 buildSettingsColors()
 refreshNodeNames()
-chart.style.width = `${data.metadata.chartWidth}px`
-chart.style.height = `${data.metadata.chartHeight}px`
 renderNodes()

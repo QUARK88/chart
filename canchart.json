@@ -1,0 +1,1093 @@
+{
+  "metadata": {
+    "chartWidth": 1075,
+    "chartHeight": 1650,
+    "fontFamily": "gobold",
+    "fontSize": 9,
+    "gridGranularity": 25,
+    "colors": [
+      "#808080",
+      "#ff8040",
+      "#20a0ff",
+      "#00c080",
+      "#ffc000",
+      "#6a60bf",
+      "#808080",
+      "#808080",
+      "#808080",
+      "#808080",
+      "#808080",
+      "#808080"
+    ]
+  },
+  "nodes": {
+    "Accountability Reformism": {
+      "x": 1000,
+      "y": 250,
+      "type": 0,
+      "color": 3,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/responsible-government",
+      "precursors": []
+    },
+    "Agrarianism": {
+      "x": 225,
+      "y": 425,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Agrarianism",
+      "precursors": []
+    },
+    "Anti-Riel Sentiment": {
+      "x": 750,
+      "y": 525,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/louis-riel",
+      "precursors": []
+    },
+    "Bay Street Conservative Establishment": {
+      "x": 1000,
+      "y": 850,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://en.wikipedia.org/wiki/Bay_Street",
+      "precursors": []
+    },
+    "Bloc Populaire": {
+      "x": 575,
+      "y": 625,
+      "type": 1,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/bloc-populaire-canadien",
+      "precursors": [
+        "Bourassien Nationalism"
+      ]
+    },
+    "Bloc Québécois": {
+      "x": 775,
+      "y": 1250,
+      "type": 2,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/bloc-quebecois",
+      "precursors": [
+        "Liberal Party (Trudeau-Turner era);Separatist MPs",
+        "Progressive Conservative Party (Clark-Mulroney era);Separatist MPs",
+        "Québec Separatism"
+      ]
+    },
+    "Blue Tory Liberalism": {
+      "x": 750,
+      "y": 1325,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://en.wikipedia.org/wiki/Blue_Tory",
+      "precursors": []
+    },
+    "Bourassien Nationalism": {
+      "x": 650,
+      "y": 675,
+      "type": 0,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/henri-bourassa",
+      "precursors": [
+        "Ultramontanism"
+      ]
+    },
+    "British Loyalism": {
+      "x": 650,
+      "y": 75,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/loyalists",
+      "precursors": []
+    },
+    "Canadian Alliance": {
+      "x": 875,
+      "y": 1500,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/canadian-alliance",
+      "precursors": [
+        "Christian Right",
+        "Reform Party",
+        "Western Canadian Regionalism"
+      ]
+    },
+    "Canadian Labour Congress": {
+      "x": 275,
+      "y": 1150,
+      "type": 2,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/canadian-labour-congress",
+      "precursors": [
+        "Industrial Unionism"
+      ]
+    },
+    "Canadian Reform Movement": {
+      "x": 475,
+      "y": 175,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/reform-movement-in-upper-canada",
+      "precursors": [
+        "Chartism",
+        "Radical-Continental Liberalism"
+      ]
+    },
+    "Canadian Tories": {
+      "x": 650,
+      "y": 225,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/sir-john-alexander-macdonald",
+      "precursors": [
+        "Château Clique",
+        "Family Compact"
+      ]
+    },
+    "Chartism": {
+      "x": 550,
+      "y": 75,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://en.wikipedia.org/wiki/Chartism",
+      "precursors": []
+    },
+    "Château Clique": {
+      "x": 600,
+      "y": 150,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/chateau-clique",
+      "precursors": [
+        "British Loyalism"
+      ]
+    },
+    "Christian Right": {
+      "x": 825,
+      "y": 1450,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://en.wikipedia.org/wiki/Christian_right#Canada",
+      "precursors": []
+    },
+    "Clear Grits": {
+      "x": 475,
+      "y": 350,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/clear-grits",
+      "precursors": [
+        "Canadian Reform Movement;Western Radicals"
+      ]
+    },
+    "Communist Party": {
+      "x": 150,
+      "y": 950,
+      "type": 2,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/communist-party-of-canada",
+      "precursors": [
+        "Industrial Unionism",
+        "Jewish Left",
+        "Socialist Party;Revolutionaries"
+      ]
+    },
+    "Conservative Party (Contemporary era)": {
+      "x": 850,
+      "y": 1575,
+      "type": 2,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/pierre-poilievre",
+      "precursors": [
+        "Conservative Party (Harper era)"
+      ]
+    },
+    "Conservative Party (Harper era)": {
+      "x": 1000,
+      "y": 1500,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/stephen-joseph-harper",
+      "precursors": [
+        "Canadian Alliance",
+        "Progressive Conservative Party (Rump era)",
+        "Western Canadian Regionalism"
+      ]
+    },
+    "Conservative Party (Meighen-Bennett era)": {
+      "x": 900,
+      "y": 800,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/arthur-meighen",
+      "precursors": [
+        "''Imperial Preference'' Imperialism",
+        "Unionist Government;Conservative Unionists"
+      ]
+    },
+    "Conservative Party (Tupper-Borden era)": {
+      "x": 900,
+      "y": 575,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/sir-robert-borden",
+      "precursors": [
+        "Liberal-Conservative Party",
+        "Orangemen Protestantism"
+      ]
+    },
+    "Consistent Social Liberalism": {
+      "x": 500,
+      "y": 1400,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Social_liberalism",
+      "precursors": []
+    },
+    "Continentalism": {
+      "x": 375,
+      "y": 425,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/continentalism",
+      "precursors": []
+    },
+    "Co-operative Commonwealth Federation": {
+      "x": 350,
+      "y": 950,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/co-operative-commonwealth-federation",
+      "precursors": [
+        "Independent Labour Party",
+        "Social Gospel",
+        "United Farmers of Alberta"
+      ]
+    },
+    "Electoral Reformism": {
+      "x": 375,
+      "y": 1425,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/electoral-reform",
+      "precursors": []
+    },
+    "Environmentalism": {
+      "x": 400,
+      "y": 1350,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://www.thecanadianencyclopedia.ca/en/article/environmental-and-conservation-movements",
+      "precursors": [
+        "New Left"
+      ]
+    },
+    "Family Compact": {
+      "x": 700,
+      "y": 150,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/family-compact",
+      "precursors": [
+        "British Loyalism"
+      ]
+    },
+    "Gallicanism": {
+      "x": 325,
+      "y": 350,
+      "type": 0,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/gallicanism",
+      "precursors": []
+    },
+    "Green Party": {
+      "x": 475,
+      "y": 1300,
+      "type": 2,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/green-party-of-canada",
+      "precursors": [
+        "Environmentalism"
+      ]
+    },
+    "Immigration Restrictionism": {
+      "x": 775,
+      "y": 1400,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/immigration",
+      "precursors": []
+    },
+    "''Imperial Preference'' Imperialism": {
+      "x": 1000,
+      "y": 725,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://en.wikipedia.org/wiki/Imperial_Preference",
+      "precursors": []
+    },
+    "Independent Labour Party": {
+      "x": 275,
+      "y": 900,
+      "type": 1,
+      "color": 4,
+      "hyperlink": "https://en.wikipedia.org/wiki/Independent_Labour_Party_(Manitoba,_1920)",
+      "precursors": [
+        "Socialism",
+        "Socialist Party;Gradualists"
+      ]
+    },
+    "Industrial Unionism": {
+      "x": 225,
+      "y": 1100,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/industrial-unionism",
+      "precursors": []
+    },
+    "Jewish Left": {
+      "x": 75,
+      "y": 1000,
+      "type": 0,
+      "color": 5,
+      "hyperlink": "https://en.wikipedia.org/wiki/J._B._Salsberg",
+      "precursors": []
+    },
+    "Keynesianism": {
+      "x": 750,
+      "y": 750,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/keynesian-economics",
+      "precursors": []
+    },
+    "Labor-Progressive Party": {
+      "x": 150,
+      "y": 1100,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Labor-Progressive_Party",
+      "precursors": [
+        "Communist Party;Front Organization",
+        "Jewish Left"
+      ]
+    },
+    "Laurier Liberals": {
+      "x": 525,
+      "y": 700,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Laurier_Liberals",
+      "precursors": [
+        "Bourassien Nationalism",
+        "Liberal Party (Laurier era);Anti-Conscription"
+      ]
+    },
+    "Liberal-Conservative Party": {
+      "x": 675,
+      "y": 450,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Liberal-Conservative_Party",
+      "precursors": [
+        "Anti-Riel Sentiment",
+        "Canadian Tories",
+        "''National Policy'' Protectionism",
+        "New Brunswick Confederation Party",
+        "Nova Scotia Confederation Party",
+        "Parti Bleu"
+      ]
+    },
+    "Liberal Party (Chrétien era)": {
+      "x": 650,
+      "y": 1300,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/joseph-jacques-jean-chretien",
+      "precursors": [
+        "Liberal Party (Trudeau-Turner era)",
+        "Third Way Centrism"
+      ]
+    },
+    "Liberal Party (Contemporary era)": {
+      "x": 600,
+      "y": 1575,
+      "type": 2,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/mark-carney",
+      "precursors": [
+        "Conservative Party (Contemporary era);Adoption of popular policies",
+        "Liberal Party (Trudeau era)"
+      ]
+    },
+    "Liberal Party (King-St. Laurent era)": {
+      "x": 775,
+      "y": 825,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/william-lyon-mackenzie-king",
+      "precursors": [
+        "Keynesianism",
+        "Laurier Liberals",
+        "Progressive Party",
+        "Unionist Government;Liberal Unionists"
+      ]
+    },
+    "Liberal Party (Laurier era)": {
+      "x": 475,
+      "y": 525,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/sir-wilfrid-laurier",
+      "precursors": [
+        "Liberal Party (Mackenzie era)",
+        "McCarthyites;Political Alliance",
+        "Tariff Reformism"
+      ]
+    },
+    "Liberal Party (Mackenzie era)": {
+      "x": 475,
+      "y": 425,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/alexander-mackenzie",
+      "precursors": [
+        "Clear Grits",
+        "Continentalism",
+        "New Brunswick Anti-Confederation Party",
+        "Nova Scotia Anti-Confederation Party",
+        "Parti Rouge",
+        "Pro-Riel Sentiment"
+      ]
+    },
+    "Liberal Party (Martin-Ignatieff era)": {
+      "x": 600,
+      "y": 1375,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/paul-edgar-philippe-martin",
+      "precursors": [
+        "Liberal Party (Chrétien era)"
+      ]
+    },
+    "Liberal Party (Pearson era)": {
+      "x": 725,
+      "y": 1000,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/lester-bowles-pearson",
+      "precursors": [
+        "Liberal Party (King-St. Laurent era)",
+        "Plurinational Canadianism"
+      ]
+    },
+    "Liberal Party (Trudeau era)": {
+      "x": 525,
+      "y": 1500,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/justin-trudeau",
+      "precursors": [
+        "Consistent Social Liberalism",
+        "Electoral Reformism",
+        "Environmentalism",
+        "Liberal Party (Martin-Ignatieff era)",
+        "New Democratic Party (Singh era);Slavish Loyalty",
+        "Post-nationalism"
+      ]
+    },
+    "Liberal Party (Trudeau-Turner era)": {
+      "x": 725,
+      "y": 1075,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/pierre-elliott-trudeau",
+      "precursors": [
+        "Liberal Party (Pearson era)",
+        "Multiculturalism",
+        "New Left"
+      ]
+    },
+    "Libertarianism": {
+      "x": 700,
+      "y": 1425,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/libertarianism-in-canada",
+      "precursors": []
+    },
+    "McCarthyites": {
+      "x": 675,
+      "y": 550,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://www.biographi.ca/en/bio/mccarthy_d_alton_12E.html",
+      "precursors": [
+        "Liberal-Conservative Party;Breakaway",
+        "Orangemen Protestantism",
+        "Tariff Reformism"
+      ]
+    },
+    "Multiculturalism": {
+      "x": 650,
+      "y": 1125,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/multiculturalism",
+      "precursors": []
+    },
+    "''National Policy'' Protectionism": {
+      "x": 850,
+      "y": 500,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/national-policy",
+      "precursors": []
+    },
+    "New Brunswick Anti-Confederation Party": {
+      "x": 750,
+      "y": 300,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://en.wikipedia.org/wiki/Anti-Confederation_Party",
+      "precursors": [
+        "New Brunswick Conservatives"
+      ]
+    },
+    "New Brunswick Confederation Party": {
+      "x": 875,
+      "y": 300,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://en.wikipedia.org/wiki/Confederation_Party",
+      "precursors": [
+        "New Brunswick Conservatives",
+        "New Brunswick Liberals"
+      ]
+    },
+    "New Brunswick Conservatives": {
+      "x": 800,
+      "y": 200,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/sir-samuel-leonard-tilley",
+      "precursors": [
+        "''Rummies'';Majority",
+        "''Smashers'';Minority"
+      ]
+    },
+    "New Brunswick Liberals": {
+      "x": 925,
+      "y": 200,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/sir-albert-james-smith",
+      "precursors": [
+        "''Rummies'';Minority",
+        "''Smashers'';Majority",
+        "Accountability Reformism"
+      ]
+    },
+    "New Democracy": {
+      "x": 475,
+      "y": 1025,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/william-duncan-herridge",
+      "precursors": [
+        "Western Social Credit League"
+      ]
+    },
+    "New Democratic Party (Broadbent era)": {
+      "x": 275,
+      "y": 1325,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/john-edward-broadbent",
+      "precursors": [
+        "New Democratic Party (Douglas era)"
+      ]
+    },
+    "New Democratic Party (Douglas era)": {
+      "x": 350,
+      "y": 1225,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/tommy-douglas",
+      "precursors": [
+        "Canadian Labour Congress",
+        "Co-operative Commonwealth Federation",
+        "New Left"
+      ]
+    },
+    "New Democratic Party (Layton era)": {
+      "x": 275,
+      "y": 1475,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/jack-layton",
+      "precursors": [
+        "Electoral Reformism",
+        "New Democratic Party (Broadbent era)"
+      ]
+    },
+    "New Democratic Party (Singh era)": {
+      "x": 350,
+      "y": 1575,
+      "type": 2,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/jagmeet-singh",
+      "precursors": [
+        "New Democratic Party (Layton era)"
+      ]
+    },
+    "New Left": {
+      "x": 450,
+      "y": 1075,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/new-left",
+      "precursors": []
+    },
+    "Nova Scotia Anti-Confederation Party": {
+      "x": 900,
+      "y": 375,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://en.wikipedia.org/wiki/Anti-Confederation_Party",
+      "precursors": [
+        "Nova Scotia Reform Movement"
+      ]
+    },
+    "Nova Scotia Confederation Party": {
+      "x": 900,
+      "y": 450,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://en.wikipedia.org/wiki/Confederation_Party",
+      "precursors": [
+        "Nova Scotia Conservatives"
+      ]
+    },
+    "Nova Scotia Conservatives": {
+      "x": 1000,
+      "y": 400,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/sir-charles-tupper",
+      "precursors": []
+    },
+    "Nova Scotia Reform Movement": {
+      "x": 1000,
+      "y": 325,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/joseph-howe",
+      "precursors": [
+        "Accountability Reformism"
+      ]
+    },
+    "Orangemen Protestantism": {
+      "x": 800,
+      "y": 600,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/orange-order",
+      "precursors": []
+    },
+    "Parti Bleu": {
+      "x": 550,
+      "y": 275,
+      "type": 1,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/parti-bleu",
+      "precursors": [
+        "Canadian Reform Movement;Eastern Moderates",
+        "Ultramontanism"
+      ]
+    },
+    "Parti Rouge": {
+      "x": 400,
+      "y": 275,
+      "type": 1,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/parti-rouge",
+      "precursors": [
+        "Canadian Reform Movement;Eastern Radicals",
+        "Gallicanism",
+        "Patriote Movement"
+      ]
+    },
+    "Patriote Movement": {
+      "x": 350,
+      "y": 175,
+      "type": 1,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/patriotes",
+      "precursors": [
+        "Agrarianism",
+        "Radical-Continental Liberalism"
+      ]
+    },
+    "Patrons of Industry Party": {
+      "x": 350,
+      "y": 500,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://en.wikipedia.org/wiki/Patrons_of_Industry",
+      "precursors": [
+        "Agrarianism",
+        "Tariff Reformism"
+      ]
+    },
+    "People's Party": {
+      "x": 750,
+      "y": 1500,
+      "type": 2,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/people-s-party-of-canada",
+      "precursors": [
+        "Conservative Party (Contemporary era)",
+        "Immigration Restrictionism",
+        "Libertarianism"
+      ]
+    },
+    "Plurinational Canadianism": {
+      "x": 800,
+      "y": 950,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Plurinationalism",
+      "precursors": []
+    },
+    "Political Anti-semitism": {
+      "x": 675,
+      "y": 925,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Antisemitism_in_Canada",
+      "precursors": []
+    },
+    "Post-nationalism": {
+      "x": 625,
+      "y": 1450,
+      "type": 0,
+      "color": 5,
+      "hyperlink": "https://en.wikipedia.org/wiki/Postnationalism#In_Canada",
+      "precursors": []
+    },
+    "Prairie Red Tory Populists": {
+      "x": 1000,
+      "y": 975,
+      "type": 1,
+      "color": 4,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/red-tory",
+      "precursors": []
+    },
+    "Progressive Conservative Party (Bracken-Drew era)": {
+      "x": 900,
+      "y": 925,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/john-bracken",
+      "precursors": [
+        "Bay Street Conservative Establishment",
+        "Conservative Party (Meighen-Bennett era)",
+        "Prairie Red Tory Populists",
+        "Progressive Party;Manitoba Premier Party Takeover"
+      ]
+    },
+    "Progressive Conservative Party (Clark-Mulroney era)": {
+      "x": 900,
+      "y": 1325,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/brian-mulroney",
+      "precursors": [
+        "Blue Tory Liberalism",
+        "Progressive Conservative Party (Diefenbaker era)",
+        "Québec Separatism;Political Alliance"
+      ]
+    },
+    "Progressive Conservative Party (Diefenbaker era)": {
+      "x": 900,
+      "y": 1025,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/john-diefenbaker",
+      "precursors": [
+        "Prairie Red Tory Populists",
+        "Progressive Conservative Party (Bracken-Drew era)",
+        "Union Nationale;Political Support"
+      ]
+    },
+    "Progressive Conservative Party (Rump era)": {
+      "x": 975,
+      "y": 1400,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/kim-campbell",
+      "precursors": [
+        "Progressive Conservative Party (Clark-Mulroney era)"
+      ]
+    },
+    "Progressive Party": {
+      "x": 450,
+      "y": 775,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/progressive-party",
+      "precursors": [
+        "Agrarianism",
+        "Unionist Government;Pro-Free Trade Westerners"
+      ]
+    },
+    "Pro-Riel Sentiment": {
+      "x": 400,
+      "y": 375,
+      "type": 0,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/louis-riel",
+      "precursors": []
+    },
+    "Protestant Fundamentalism": {
+      "x": 425,
+      "y": 850,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/evangelical-and-fundamentalist-movements",
+      "precursors": []
+    },
+    "Québec Separatism": {
+      "x": 825,
+      "y": 1175,
+      "type": 0,
+      "color": 2,
+      "hyperlink": "https://en.wikipedia.org/wiki/Quebec_sovereignty_movement",
+      "precursors": []
+    },
+    "Radical-Continental Liberalism": {
+      "x": 450,
+      "y": 75,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Classical_radicalism",
+      "precursors": []
+    },
+    "Ralliement Créditiste": {
+      "x": 475,
+      "y": 1200,
+      "type": 1,
+      "color": 2,
+      "hyperlink": "https://en.wikipedia.org/wiki/Ralliement_créditiste",
+      "precursors": [
+        "Social Credit Party;Caouette Wing"
+      ]
+    },
+    "Reform Party": {
+      "x": 875,
+      "y": 1400,
+      "type": 1,
+      "color": 4,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/reform-party-of-canada",
+      "precursors": [
+        "Christian Right",
+        "Immigration Restrictionism",
+        "Progressive Conservative Party (Clark-Mulroney era)",
+        "Western Canadian Regionalism"
+      ]
+    },
+    "''Rummies''": {
+      "x": 800,
+      "y": 100,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "http://www.revparl.ca/english/issue.asp?param=209&art=1468",
+      "precursors": []
+    },
+    "''Smashers''": {
+      "x": 925,
+      "y": 100,
+      "type": 1,
+      "color": 3,
+      "hyperlink": "http://www.revparl.ca/english/issue.asp?param=209&art=1468",
+      "precursors": [
+        "Temperance Movement"
+      ]
+    },
+    "Social Credit": {
+      "x": 600,
+      "y": 900,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Social_credit",
+      "precursors": []
+    },
+    "Social Credit Party": {
+      "x": 550,
+      "y": 1125,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/social-credit",
+      "precursors": [
+        "New Democracy",
+        "Union des Électeurs",
+        "Western Social Credit League"
+      ]
+    },
+    "Social Credit Party (Caouette era)": {
+      "x": 550,
+      "y": 1250,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/real-caouette",
+      "precursors": [
+        "Ralliement Créditiste",
+        "Social Credit Party (Thompson era)"
+      ]
+    },
+    "Social Credit Party (Thompson era)": {
+      "x": 625,
+      "y": 1200,
+      "type": 1,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/robert-norman-thompson",
+      "precursors": [
+        "Blue Tory Liberalism",
+        "Social Credit Party;Manning Wing"
+      ]
+    },
+    "Social Gospel": {
+      "x": 400,
+      "y": 1025,
+      "type": 0,
+      "color": 1,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/social-gospel",
+      "precursors": []
+    },
+    "Socialism": {
+      "x": 225,
+      "y": 800,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/socialism",
+      "precursors": []
+    },
+    "Socialist Party": {
+      "x": 125,
+      "y": 850,
+      "type": 1,
+      "color": 4,
+      "hyperlink": "https://en.wikipedia.org/wiki/Socialist_Party_of_Canada_(WSM)",
+      "precursors": [
+        "Socialism"
+      ]
+    },
+    "Tariff Reformism": {
+      "x": 400,
+      "y": 600,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/national-policy",
+      "precursors": []
+    },
+    "Temperance Movement": {
+      "x": 1000,
+      "y": 75,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/temperance-movement",
+      "precursors": []
+    },
+    "Third Way Centrism": {
+      "x": 550,
+      "y": 1325,
+      "type": 0,
+      "color": 0,
+      "hyperlink": "https://en.wikipedia.org/wiki/Third_Way",
+      "precursors": []
+    },
+    "Ultramontanism": {
+      "x": 550,
+      "y": 350,
+      "type": 0,
+      "color": 2,
+      "hyperlink": "https://www.thecanadianencyclopedia.ca/en/article/ultramontanism",
+      "precursors": []
+    },
+    "Union des Électeurs": {
+      "x": 625,
+      "y": 1000,
+      "type": 1,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/creditistes",
+      "precursors": [
+        "Political Anti-semitism",
+        "Social Credit"
+      ]
+    },
+    "Unionist Government": {
+      "x": 900,
+      "y": 675,
+      "type": 1,
+      "color": 0,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/union-government",
+      "precursors": [
+        "Conservative Party (Tupper-Borden era)",
+        "Liberal Party (Laurier era);Pro-conscription"
+      ]
+    },
+    "Union Nationale": {
+      "x": 1000,
+      "y": 1125,
+      "type": 1,
+      "color": 2,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/union-nationale",
+      "precursors": []
+    },
+    "United Farmers of Alberta": {
+      "x": 325,
+      "y": 850,
+      "type": 1,
+      "color": 4,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/united-farmers-of-alberta",
+      "precursors": [
+        "Agrarianism",
+        "Progressive Party;Alberta MPs"
+      ]
+    },
+    "United Progressives": {
+      "x": 275,
+      "y": 1025,
+      "type": 1,
+      "color": 4,
+      "hyperlink": "https://www.facebook.com/UPPartyOfCanada",
+      "precursors": [
+        "Communist Party;Front Organization",
+        "Co-operative Commonwealth Federation;Dual Members"
+      ]
+    },
+    "Western Canadian Regionalism": {
+      "x": 925,
+      "y": 1450,
+      "type": 0,
+      "color": 4,
+      "hyperlink": "https://en.wikipedia.org/wiki/Western_alienation#Contemporary_western_alienation",
+      "precursors": []
+    },
+    "Western Social Credit League": {
+      "x": 550,
+      "y": 975,
+      "type": 1,
+      "color": 4,
+      "hyperlink": "https://thecanadianencyclopedia.ca/en/article/william-aberhart",
+      "precursors": [
+        "Progressive Party;Socially Conservative Supporters",
+        "Protestant Fundamentalism",
+        "Social Credit",
+        "United Farmers of Alberta;Socially Conservative Supporters"
+      ]
+    }
+  }
+}
