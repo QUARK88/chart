@@ -634,21 +634,20 @@ resetButton.addEventListener("click", () => {
     )
         return
     data = createDefaultData()
-    saveData()
     widthPicker.value = data.metadata.chartWidth
     heightPicker.value = data.metadata.chartHeight
+    saveData()
     fontSize.value = data.metadata.fontSize
     gridGranularity.value = data.metadata.gridGranularity
     chart.style.width = `${data.metadata.chartWidth}px`
     chart.style.height = `${data.metadata.chartHeight}px`
     applySettings()
-    chart.style.width = `${data.metadata.chartWidth}px`
-    chart.style.height = `${data.metadata.chartHeight}px`
     buildColorButtons()
     buildSettingsColors()
     renderNodes()
     renderArrows()
     refreshNodeNames()
+    toggleSettings()
 })
 buildColorButtons()
 updateTypeButtons()
