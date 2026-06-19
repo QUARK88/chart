@@ -342,8 +342,15 @@ function closeMenu() {
     menuNameInput.blur()
     menuHyperlinkInput.blur()
 }
-function openMenu(x, y) {
-    menu.style.display = "flex"
+const resizeObserver = new ResizeObserver(() => {
+    const x = parseFloat(menu.dataset.anchorX)
+    const y = parseFloat(menu.dataset.anchorY)
+    if (!isNaN(x) && !isNaN(y) && menu.style.display !== 'none') {
+        updateMenuPosition(x, y)
+    }
+})
+resizeObserver.observe(menu)
+function updateMenuPosition(x, y) {
     const margin = 25
     const menuWidth = menu.offsetWidth
     const menuHeight = menu.offsetHeight
@@ -355,6 +362,14 @@ function openMenu(x, y) {
     top = Math.max(margin, top)
     menu.style.left = `${left}px`
     menu.style.top = `${top}px`
+}
+function openMenu(x, y) {
+    menu.style.display = "flex"
+    menu.dataset.anchorX = x
+    menu.dataset.anchorY = y
+    requestAnimationFrame(() => {
+        updateMenuPosition(x, y)
+    })
     menuNameInput.focus()
     menuNameInput.select()
 }
@@ -620,8 +635,8 @@ function renderArrows() {
                     const text = document.createElement("div")
                     text.className = "arrowText"
                     text.textContent = arrowText
-                    text.style.left = `${(x1 + x2) / 2}px`
-                    text.style.top = `${(y1 + y2) / 2}px`
+                    text.style.left = `${(x1 + tipX) / 2}px`
+                    text.style.top = `${(y1 + tipY) / 2}px`
                     arrows.appendChild(text)
                 }
             })
@@ -630,13 +645,11 @@ function renderArrows() {
 }
 function refreshNodeNames() {
     nodeNames.innerHTML = ""
-    Object.keys(data.nodes)
-        .sort()
-        .forEach(name => {
-            const option = document.createElement("option")
-            option.value = name
-            nodeNames.appendChild(option)
-        })
+    Object.keys(data.nodes).sort().forEach(name => {
+        const option = document.createElement("option")
+        option.value = name
+        nodeNames.appendChild(option)
+    })
 }
 function exportData() {
     const blob = new Blob([JSON.stringify(data, null, 4)], { type: "application/json" })
