@@ -271,6 +271,11 @@ div {
     transform: translate(-50%, -50%);
     user-select: none;
     color: var(--text);
+    text-align: center;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #settings {
