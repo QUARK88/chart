@@ -347,10 +347,14 @@ function openMenu(x, y) {
     const margin = 25
     const menuWidth = menu.offsetWidth
     const menuHeight = menu.offsetHeight
-    const maxX = window.scrollX + window.innerWidth - menuWidth - margin
-    const maxY = window.scrollY + window.innerHeight - menuHeight - margin
-    menu.style.left = `${Math.min(x + 25, maxX)}px`
-    menu.style.top = `${Math.min(y + 25, maxY)}px`
+    const maxX = window.innerWidth - menuWidth - margin
+    const maxY = window.innerHeight - menuHeight - margin
+    let left = Math.min(x + 25, maxX)
+    let top = Math.min(y + 25, maxY)
+    left = Math.max(margin, left)
+    top = Math.max(margin, top)
+    menu.style.left = `${left}px`
+    menu.style.top = `${top}px`
     menuNameInput.focus()
     menuNameInput.select()
 }

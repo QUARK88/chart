@@ -127,9 +127,7 @@ div {
 }
 
 #menu {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
     background-color: var(--background);
     padding: 8px;
     gap: 8px;
