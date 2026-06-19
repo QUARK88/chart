@@ -237,7 +237,7 @@ div {
 
 .nodeText {
     position: absolute;
-    width: 100px;
+    width: calc(var(--fontSize)*8);
     z-index: 204;
     text-align: center;
     font-size: var(--fontSize);
@@ -272,7 +272,7 @@ div {
     user-select: none;
     color: var(--text);
     text-align: center;
-    width: 75px;
+    width: calc(var(--fontSize)*5);
     display: flex;
     align-items: center;
     justify-content: center;

@@ -64,7 +64,8 @@ function applySettings() {
     document.documentElement.style.setProperty("--fontFamily", data.metadata.fontFamily)
     chart.style.width = `${data.metadata.chartWidth}px`
     chart.style.height = `${data.metadata.chartHeight}px`
-    console.log(`${data.metadata.chartHeight}px`)
+    widthPicker.value = data.metadata.chartWidth
+    heightPicker.value = data.metadata.chartHeight
 }
 function saveData() {
     data.metadata.chartWidth = parseInt(widthPicker.value)
@@ -134,6 +135,9 @@ function createNodeElement(name, nodeData) {
     const text = document.createElement("a")
     text.className = "nodeText"
     text.textContent = name
+    if (name.length >= 32) {
+        text.style.width = "calc(var(--fontSize)*13)"
+    }
     text.draggable = false
     /*if (nodeData.hyperlink) {
         text.href = nodeData.hyperlink
@@ -605,19 +609,7 @@ function importData() {
         const reader = new FileReader()
         reader.onload = () => {
             try {
-                const imported = JSON.parse(reader.result)
-                if (!imported.metadata || !imported.nodes) {
-                    throw new Error("Invalid format")
-                }
-                data = imported
-                console.log(data)
-                localStorage.setItem(STORAGE_KEY, JSON.stringify(data))
-                buildColorButtons()
-                buildSettingsColors()
-                renderNodes()
-                renderArrows()
-                applySettings()
-                refreshNodeNames()
+                loadChartData(JSON.parse(reader.result))
             } catch {
                 alert("Invalid chart file")
             }
@@ -625,14 +617,45 @@ function importData() {
         reader.readAsText(file)
     })
     input.click()
+    applySettings()
+    renderArrows()
     toggleSettings()
 }
+function loadChartData(imported) {
+    if (!imported.metadata || !imported.nodes)
+        throw new Error("Invalid format")
+    data = imported
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data))
+    buildColorButtons()
+    buildSettingsColors()
+    applySettings()
+    renderNodes()
+    renderArrows()
+    refreshNodeNames()
+}
+async function loadBuiltInChart(path) {
+    if (!confirm("This will permanently delete all chart data. Continue?"))
+        return
+    try {
+        const response = await fetch(path)
+        if (!response.ok)
+            throw new Error()
+        const imported =
+            await response.json()
+        loadChartData(imported)
+        toggleSettings()
+    } catch {
+        alert("Failed to load chart")
+    }
+}
+canchart.addEventListener("click", () => loadBuiltInChart("./canchart.json")
+)
+uschart.addEventListener("click", () => loadBuiltInChart("./uschart.json")
+)
+frchart.addEventListener("click", () => loadBuiltInChart("./frchart.json")
+)
 resetButton.addEventListener("click", () => {
-    if (
-        !confirm(
-            "This will permanently delete all chart data. Continue?"
-        )
-    )
+    if (!confirm("This will permanently delete all chart data. Continue?"))
         return
     data = createDefaultData()
     widthPicker.value = data.metadata.chartWidth

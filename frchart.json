@@ -136,8 +136,8 @@
             "hyperlink": "https://en.wikipedia.org/wiki/Bonapartists_(political_party)",
             "precursors": [
                 "Caesarism",
-                "Classical Liberalism",
-                "Constitutional Monarchism",
+                "Classical Liberalism;Partially",
+                "Constitutional Monarchism;On Paper",
                 "Plebiscitary Populism",
                 "Saint-Simonianism"
             ]
@@ -233,7 +233,7 @@
             "hyperlink": "https://en.wikipedia.org/wiki/French_Communist_Party",
             "precursors": [
                 "FSWI",
-                "Marxism-Leninism",
+                "Marxism-Leninism;Until 1979",
                 "Planism"
             ]
         },
@@ -446,7 +446,7 @@
             "hyperlink": "https://en.wikipedia.org/wiki/Mouvement_Franciste",
             "precursors": [
                 "Corporatism",
-                "Fascism"
+                "Fascism;Aesthetics"
             ]
         },
         "French Action": {
@@ -460,10 +460,10 @@
                 "Catholic Feminism",
                 "Federal Monarchism",
                 "French Nationalism",
-                "Fusionist Orléanists",
+                "Fusionist Orléanists;Dynastic Allegiance",
                 "Integralism",
                 "Political Catholicism",
-                "Positivism",
+                "Positivism;As Natural Law",
                 "Reactionaryism"
             ]
         },
@@ -509,9 +509,9 @@
             "precursors": [
                 "Anti-Secularism",
                 "Conservatism",
-                "French Nationalism",
-                "Legitimists",
-                "Pure Orleanists"
+                "French Nationalism;Opposition to Spanish Claims",
+                "Legitimists;Lack of Bourbon Heir",
+                "Pure Orleanists;Anti-Republican Alliance"
             ]
         },
         "Gaullism": {
@@ -524,7 +524,7 @@
                 "Executive Centralism",
                 "Paternalistic Conservatism",
                 "Realpolitik",
-                "Social Party"
+                "Social Party;Ideological Inspiration"
             ]
         },
         "Generation.s": {
@@ -708,7 +708,7 @@
             "hyperlink": "https://en.wikipedia.org/wiki/Popular_Liberal_Action",
             "precursors": [
                 "Classical Liberalism",
-                "Fusionist Orléanists",
+                "Fusionist Orléanists;Rerum Novarum",
                 "Pro-Dreyfus Sentiment",
                 "Social Catholicism"
             ]
@@ -759,7 +759,7 @@
             "precursors": [
                 "Anti-Clericalism",
                 "Classical Liberalism",
-                "Fusionist Orléanists"
+                "Fusionist Orléanists;Decline of Monarchist Sentiment"
             ]
         },
         "Mutualism": {
@@ -781,10 +781,10 @@
             "precursors": [
                 "Identitarianism",
                 "New Order",
-                "New Right",
+                "New Right;Limited, 1980s",
                 "Poujadism",
                 "Right-Wing Populism",
-                "Tixier-Vignancour Committees"
+                "Tixier-Vignancour Committees;Significant Elements"
             ]
         },
         "National Popular Rally": {
@@ -807,7 +807,7 @@
             "hyperlink": "https://en.wikipedia.org/wiki/National_Rally",
             "precursors": [
                 "Euroscepticism",
-                "National Front",
+                "National Front;De-Demonization Effort",
                 "Right-Wing Populism"
             ]
         },
@@ -843,7 +843,7 @@
                 "Corporatism",
                 "FSWI",
                 "Planism",
-                "Republican-Socialist Party"
+                "Republican-Socialist Party;Neo-Jacobins"
             ]
         },
         "New Left": {
@@ -893,7 +893,7 @@
             "color": 3,
             "hyperlink": "https://en.wikipedia.org/wiki/Paternalistic_conservatism",
             "precursors": [
-                "Neosocialism"
+                "Neosocialism;Dirigism"
             ]
         },
         "Planism": {
@@ -1011,7 +1011,7 @@
             "precursors": [
                 "Anti-Clericalism",
                 "Anti-Prussian Sentiment",
-                "Communards",
+                "Communards;Amnestied Minority",
                 "Radical Liberalism",
                 "Utopian Socialism"
             ]
@@ -1090,7 +1090,7 @@
                 "Colbertism",
                 "Elitism",
                 "Euroscepticism",
-                "National Front",
+                "National Front;Jean-Marie Le Pen's Support",
                 "Right-Wing Populism"
             ]
         },
@@ -1279,7 +1279,7 @@
                 "European Unionism",
                 "New Left",
                 "Republican Institutions",
-                "Third Way"
+                "Third Way;François Hollande"
             ]
         },
         "Syndicalism": {
@@ -1323,7 +1323,7 @@
             "color": 5,
             "hyperlink": "https://en.wikipedia.org/wiki/Carrefour_de_l'Horloge",
             "precursors": [
-                "GRECE",
+                "GRECE;Liberal-Catholic Splinter",
                 "Popular Democracy",
                 "Social Darwinism"
             ]
@@ -1393,7 +1393,7 @@
             "color": 1,
             "hyperlink": "https://en.wikipedia.org/wiki/Unified_Socialist_Party_(France)",
             "precursors": [
-                "Communist Party",
+                "Communist Party;Split Over Hungary Uprising",
                 "Workers' Self-Management"
             ]
         },
@@ -1461,7 +1461,7 @@
             "color": 5,
             "hyperlink": "https://en.wikipedia.org/wiki/Occident_(movement)",
             "precursors": [
-                "Young Nation"
+                "Young Nation;Majority of Membership"
             ]
         },
         "Workers' Party": {
@@ -1490,7 +1490,7 @@
             "color": 5,
             "hyperlink": "https://en.wikipedia.org/wiki/Jeune_Nation",
             "precursors": [
-                "Francist Movement"
+                "Francist Movement;Pre-War Members"
             ]
         },
         "Young Patriots": {
