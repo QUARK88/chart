@@ -13,6 +13,49 @@ const menuColorsContainer = document.getElementById("menuColors")
 const widthPicker = document.getElementById("widthPicker")
 const heightPicker = document.getElementById("heightPicker")
 const colorEditor = document.getElementById("colorEditor")
+const undoStack = []
+const redoStack = []
+const MAX_HISTORY = 100
+function cloneNodes() {
+    return JSON.parse(
+        JSON.stringify(data.nodes)
+    )
+}
+function pushHistory() {
+    undoStack.push(cloneNodes())
+    if (undoStack.length > MAX_HISTORY) { undoStack.shift() }
+    redoStack.length = 0
+}
+function applyNodeState(nodes) {
+    data.nodes = nodes
+    saveData()
+    renderNodes()
+    renderArrows()
+    refreshNodeNames()
+}
+function undo() {
+    if (!undoStack.length)
+        return
+    redoStack.push(cloneNodes())
+    applyNodeState(undoStack.pop())
+}
+function redo() {
+    if (!redoStack.length)
+        return
+    undoStack.push(cloneNodes())
+    applyNodeState(redoStack.pop())
+}
+document.addEventListener("keydown", event => {
+    if (event.ctrlKey && event.key.toLowerCase() === "z") {
+        event.preventDefault()
+        undo()
+    }
+    if (event.ctrlKey && event.key.toLowerCase() === "y") {
+        event.preventDefault()
+        redo()
+    }
+}
+)
 function createDefaultData() {
     return {
         metadata: {
@@ -159,7 +202,7 @@ function createNodeElement(name, nodeData) {
         shape.classList.add("nodeCurrent")
     node.appendChild(text)
     node.appendChild(shape)
-    node.addEventListener("mousedown", startDragging)
+    node.addEventListener("mousedown", (event) => { if (event.button === 0) { startDragging(event) } })
     node.addEventListener("contextmenu", openNodeMenu)
     return node
 }
@@ -195,12 +238,14 @@ function refreshPrecursorsEditor(precursors = []) {
     menuPrecursors.appendChild(createPrecursorInput())
 }
 function createNode(name, x, y) {
+    pushHistory()
     data.nodes[name] = { x, y, type: 0, color: 0, hyperlink: "", precursors: [] }
     saveData()
     renderNodes()
     refreshNodeNames()
 }
 function renameNode(oldName, newName) {
+    pushHistory()
     if (oldName === newName)
         return
     const node = data.nodes[oldName]
@@ -212,6 +257,7 @@ function renameNode(oldName, newName) {
     refreshNodeNames()
 }
 function deleteNode(name) {
+    pushHistory()
     delete data.nodes[name]
     for (const node of Object.values(data.nodes)) {
         node.precursors = node.precursors.filter(precursor => precursor !== name)
@@ -221,6 +267,7 @@ function deleteNode(name) {
     refreshNodeNames()
 }
 function startDragging(event) {
+    pushHistory()
     if (event.button !== 0)
         return
     event.preventDefault()
@@ -620,6 +667,8 @@ function importData() {
     applySettings()
     renderArrows()
     toggleSettings()
+    undoStack.length = 0
+    redoStack.length = 0
 }
 function loadChartData(imported) {
     if (!imported.metadata || !imported.nodes)
@@ -632,6 +681,8 @@ function loadChartData(imported) {
     renderNodes()
     renderArrows()
     refreshNodeNames()
+    undoStack.length = 0
+    redoStack.length = 0
 }
 async function loadBuiltInChart(path) {
     if (!confirm("This will permanently delete all chart data. Continue?"))
@@ -644,6 +695,8 @@ async function loadBuiltInChart(path) {
             await response.json()
         loadChartData(imported)
         toggleSettings()
+        undoStack.length = 0
+        redoStack.length = 0
     } catch {
         alert("Failed to load chart")
     }
@@ -670,6 +723,8 @@ resetButton.addEventListener("click", () => {
     renderArrows()
     refreshNodeNames()
     toggleSettings()
+    undoStack.length = 0
+    redoStack.length = 0
 })
 buildColorButtons()
 updateTypeButtons()
