@@ -341,6 +341,7 @@ function closeMenu() {
     pendingNodePosition = null
     menuNameInput.blur()
     menuHyperlinkInput.blur()
+    colorPopup.style.display = "none"
 }
 const resizeObserver = new ResizeObserver(() => {
     const x = parseFloat(menu.dataset.anchorX)
@@ -530,6 +531,7 @@ document.addEventListener("mousedown", event => {
     if (menu.style.display !== "flex")
         return
     if (event.target.closest("#menu"))
+        colorPopup.style.display = "none"
         return
     if (event.target.closest("#colorPopup"))
         return
