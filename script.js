@@ -22,8 +22,17 @@ function cloneNodes() {
     )
 }
 function pushHistory() {
-    undoStack.push(cloneNodes())
-    if (undoStack.length > MAX_HISTORY) { undoStack.shift() }
+    const snapshot = cloneNodes()
+    if (undoStack.length) {
+        const previous = undoStack[undoStack.length - 1]
+        if (
+            JSON.stringify(previous) === JSON.stringify(snapshot)
+        )
+            return
+    }
+    undoStack.push(snapshot)
+    if (undoStack.length > MAX_HISTORY)
+        undoStack.shift()
     redoStack.length = 0
 }
 function applyNodeState(nodes) {
