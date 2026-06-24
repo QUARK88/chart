@@ -1,0 +1,1476 @@
+{
+    "metadata": {
+        "chartWidth": 4200,
+        "chartHeight": 7150,
+        "fontFamily": "expressway",
+        "fontSize": 16,
+        "gridGranularity": 25,
+        "colors": [
+            "#4d8fd6",
+            "#d68f3c",
+            "#6cbf6c",
+            "#c94d4d",
+            "#d60000",
+            "#444444",
+            "#8c6239",
+            "#7b5ea7",
+            "#5aa6a6",
+            "#c97bb1",
+            "#8f8f8f",
+            "#d8c85a"
+        ]
+    },
+    "nodes": {
+        "Russian Liberalism": {
+            "x": 250,
+            "y": 200,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Zemstvo Movement": {
+            "x": 450,
+            "y": 200,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Union of Liberation": {
+            "x": 350,
+            "y": 400,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Russian Liberalism",
+                "Zemstvo Movement"
+            ]
+        },
+        "Constitutionalism": {
+            "x": 200,
+            "y": 550,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Parliamentary Liberalism": {
+            "x": 500,
+            "y": 550,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Constitutional Democratic Party": {
+            "x": 350,
+            "y": 700,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Union of Liberation",
+                "Constitutionalism",
+                "Parliamentary Liberalism"
+            ]
+        },
+        "Moderate Monarchism": {
+            "x": 650,
+            "y": 550,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Octobrists": {
+            "x": 650,
+            "y": 700,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Union of Liberation",
+                "Moderate Monarchism"
+            ]
+        },
+        "Progressive Bloc": {
+            "x": 500,
+            "y": 900,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Constitutional Democratic Party",
+                "Octobrists"
+            ]
+        },
+        "Narodnik Movement": {
+            "x": 900,
+            "y": 200,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Agrarian Socialism": {
+            "x": 750,
+            "y": 400,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Going to the People": {
+            "x": 1050,
+            "y": 400,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Land and Liberty": {
+            "x": 900,
+            "y": 600,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Narodnik Movement",
+                "Agrarian Socialism",
+                "Going to the People"
+            ]
+        },
+        "Revolutionary Terrorism": {
+            "x": 1100,
+            "y": 800,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "People's Will": {
+            "x": 1100,
+            "y": 1000,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Land and Liberty",
+                "Revolutionary Terrorism"
+            ]
+        },
+        "Peasant Socialism": {
+            "x": 700,
+            "y": 800,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Black Repartition": {
+            "x": 700,
+            "y": 1000,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Land and Liberty",
+                "Peasant Socialism"
+            ]
+        },
+        "Socialist Revolutionary Ideology": {
+            "x": 900,
+            "y": 1200,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Socialist Revolutionary Party": {
+            "x": 900,
+            "y": 1400,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Black Repartition",
+                "People's Will",
+                "Socialist Revolutionary Ideology"
+            ]
+        },
+        "Parliamentary Socialism": {
+            "x": 750,
+            "y": 1600,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Support for Soviets": {
+            "x": 1050,
+            "y": 1600,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Right SRs": {
+            "x": 750,
+            "y": 1800,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Socialist Revolutionary Party",
+                "Parliamentary Socialism"
+            ]
+        },
+        "Left SRs": {
+            "x": 1050,
+            "y": 1800,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Socialist Revolutionary Party",
+                "Support for Soviets"
+            ]
+        },
+        "European Marxism": {
+            "x": 1450,
+            "y": 200,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Russian Worker Movement": {
+            "x": 1650,
+            "y": 200,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Emancipation of Labour Group": {
+            "x": 1450,
+            "y": 450,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "European Marxism"
+            ]
+        },
+        "Russian Social Democracy": {
+            "x": 1650,
+            "y": 450,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "European Marxism",
+                "Russian Worker Movement"
+            ]
+        },
+        "RSDLP": {
+            "x": 1550,
+            "y": 700,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Emancipation of Labour Group",
+                "Russian Social Democracy"
+            ]
+        },
+        "Mass Party Strategy": {
+            "x": 1350,
+            "y": 950,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Broad Democratic Coalition": {
+            "x": 1250,
+            "y": 1100,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Mensheviks": {
+            "x": 1350,
+            "y": 1300,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "RSDLP",
+                "Mass Party Strategy",
+                "Broad Democratic Coalition"
+            ]
+        },
+        "Vanguard Party Theory": {
+            "x": 1750,
+            "y": 950,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Democratic Centralism": {
+            "x": 1850,
+            "y": 1100,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Bolsheviks": {
+            "x": 1750,
+            "y": 1300,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "RSDLP",
+                "Vanguard Party Theory",
+                "Democratic Centralism"
+            ]
+        },
+        "Slavophilism": {
+            "x": 2300,
+            "y": 200,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Official Nationality": {
+            "x": 2500,
+            "y": 200,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Orthodox Monarchism": {
+            "x": 2200,
+            "y": 450,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Black Hundreds": {
+            "x": 2400,
+            "y": 700,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Slavophilism",
+                "Official Nationality",
+                "Orthodox Monarchism",
+                "Russian Nationalism"
+            ]
+        },
+        "Union of the Russian People": {
+            "x": 2400,
+            "y": 950,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Black Hundreds"
+            ]
+        },
+        "Soviet Power": {
+            "x": 1650,
+            "y": 1450,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Revolutionary Defencism": {
+            "x": 950,
+            "y": 1650,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Left SR Uprising Tradition": {
+            "x": 1150,
+            "y": 1650,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Left SR Insurgency": {
+            "x": 1050,
+            "y": 1800,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Left SRs",
+                "Left SR Uprising Tradition"
+            ]
+        },
+        "RCP(b)": {
+            "x": 1750,
+            "y": 1550,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Bolsheviks",
+                "Soviet Power"
+            ]
+        },
+        "War Communism": {
+            "x": 1900,
+            "y": 1700,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Left Communism": {
+            "x": 1500,
+            "y": 1700,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Workers' Control": {
+            "x": 1350,
+            "y": 1850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Workers' Opposition": {
+            "x": 1450,
+            "y": 2000,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "RCP(b)",
+                "Workers' Control",
+                "Left Communism"
+            ]
+        },
+        "Party Democracy": {
+            "x": 1600,
+            "y": 1850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Democratic Centralists": {
+            "x": 1600,
+            "y": 2000,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "RCP(b)",
+                "Party Democracy",
+                "Left Communism"
+            ]
+        },
+        "Permanent Revolution": {
+            "x": 1250,
+            "y": 1850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Trotskyism": {
+            "x": 1250,
+            "y": 2000,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Permanent Revolution"
+            ]
+        },
+        "Left Opposition": {
+            "x": 1350,
+            "y": 2150,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "RCP(b)",
+                "Trotskyism",
+                "Party Democracy"
+            ]
+        },
+        "United Opposition": {
+            "x": 1500,
+            "y": 2300,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Left Opposition",
+                "Democratic Centralists"
+            ]
+        },
+        "New Economic Policy": {
+            "x": 1850,
+            "y": 1850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Market Socialism": {
+            "x": 2000,
+            "y": 2000,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "New Economic Policy"
+            ]
+        },
+        "Right Opposition": {
+            "x": 1900,
+            "y": 2150,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "RCP(b)",
+                "Market Socialism"
+            ]
+        },
+        "Party Bureaucracy": {
+            "x": 2200,
+            "y": 1850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Socialism in One Country": {
+            "x": 2350,
+            "y": 1850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Administrative Centralism": {
+            "x": 2500,
+            "y": 1850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Stalinism": {
+            "x": 2350,
+            "y": 2050,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Party Bureaucracy",
+                "Socialism in One Country",
+                "Administrative Centralism"
+            ]
+        },
+        "VKP(b)": {
+            "x": 2200,
+            "y": 2250,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "RCP(b)",
+                "Stalinism"
+            ]
+        },
+        "Forced Industrialization": {
+            "x": 2500,
+            "y": 2200,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Collectivization": {
+            "x": 2650,
+            "y": 2200,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "High Stalinism": {
+            "x": 2575,
+            "y": 2375,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Stalinism",
+                "Forced Industrialization",
+                "Collectivization"
+            ]
+        },
+        "Party-State Fusion": {
+            "x": 2250,
+            "y": 2425,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Stalinist Establishment": {
+            "x": 2400,
+            "y": 2575,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "VKP(b)",
+                "High Stalinism",
+                "Party-State Fusion"
+            ]
+        },
+        "Soviet Patriotism": {
+            "x": 2800,
+            "y": 2450,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Stalinism"
+            ]
+        },
+        "Socialist Realism": {
+            "x": 2950,
+            "y": 2450,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Stalinism"
+            ]
+        },
+        "Soviet Cultural Orthodoxy": {
+            "x": 2875,
+            "y": 2625,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Socialist Realism",
+                "Soviet Patriotism"
+            ]
+        },
+        "Wartime National Bolshevism": {
+            "x": 3050,
+            "y": 2800,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Soviet Patriotism"
+            ]
+        },
+        "Victory Generation": {
+            "x": 2850,
+            "y": 2800,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Soviet Patriotism"
+            ]
+        },
+        "Zhdanovism": {
+            "x": 2950,
+            "y": 2975,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Soviet Cultural Orthodoxy",
+                "Stalinist Establishment"
+            ]
+        },
+        "Late Stalinism": {
+            "x": 2550,
+            "y": 2975,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Stalinist Establishment",
+                "High Stalinism"
+            ]
+        },
+        "Soviet Technocracy": {
+            "x": 2200,
+            "y": 2800,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Forced Industrialization"
+            ]
+        },
+        "Managerial Socialism": {
+            "x": 2100,
+            "y": 2975,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Soviet Technocracy"
+            ]
+        },
+        "Technical Modernization Current": {
+            "x": 2250,
+            "y": 3150,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Managerial Socialism"
+            ]
+        },
+        "Orthodox Trotskyism": {
+            "x": 1150,
+            "y": 2450,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Trotskyism"
+            ]
+        },
+        "Fourth International Current": {
+            "x": 1150,
+            "y": 2625,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Orthodox Trotskyism"
+            ]
+        },
+        "Bukharinism": {
+            "x": 1850,
+            "y": 2450,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Right Opposition"
+            ]
+        },
+        "Suppressed Reform Current": {
+            "x": 1850,
+            "y": 2625,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Bukharinism"
+            ]
+        },
+        "Underground Democratic Socialism": {
+            "x": 1450,
+            "y": 2975,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Mensheviks"
+            ]
+        },
+        "Menshevik Emigration": {
+            "x": 1350,
+            "y": 2800,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Mensheviks",
+                "Underground Democratic Socialism"
+            ]
+        },
+        "Humanist Socialism": {
+            "x": 1600,
+            "y": 3150,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Underground Democratic Socialism"
+            ]
+        },
+        "CPSU": {
+            "x": 2450,
+            "y": 3350,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "VKP(b)",
+                "Late Stalinism"
+            ]
+        },
+        "De-Stalinization": {
+            "x": 2350,
+            "y": 3525,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Socialist Legality": {
+            "x": 2500,
+            "y": 3525,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Khrushchevism": {
+            "x": 2425,
+            "y": 3700,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "CPSU",
+                "De-Stalinization",
+                "Socialist Legality"
+            ]
+        },
+        "Khrushchev Leadership": {
+            "x": 2425,
+            "y": 3875,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "CPSU",
+                "Khrushchevism"
+            ]
+        },
+        "Consumer Socialism": {
+            "x": 2200,
+            "y": 3875,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Khrushchevism"
+            ]
+        },
+        "Scientific Communism": {
+            "x": 2650,
+            "y": 3875,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Khrushchevism"
+            ]
+        },
+        "Economic Reformism": {
+            "x": 2800,
+            "y": 4050,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Scientific Communism",
+                "Technical Modernization Current"
+            ]
+        },
+        "Kosygin Reforms": {
+            "x": 2800,
+            "y": 4225,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Economic Reformism",
+                "CPSU"
+            ]
+        },
+        "Party Stability Doctrine": {
+            "x": 2350,
+            "y": 4225,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Developed Socialism": {
+            "x": 2500,
+            "y": 4225,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Brezhnevism": {
+            "x": 2425,
+            "y": 4400,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Party Stability Doctrine",
+                "Developed Socialism",
+                "CPSU"
+            ]
+        },
+        "Brezhnev Leadership": {
+            "x": 2425,
+            "y": 4575,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "CPSU",
+                "Brezhnevism"
+            ]
+        },
+        "Conservative Party Apparatus": {
+            "x": 2200,
+            "y": 4575,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Brezhnevism"
+            ]
+        },
+        "Nomenklatura Conservatism": {
+            "x": 2050,
+            "y": 4750,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Conservative Party Apparatus"
+            ]
+        },
+        "Soviet Technocratic Reformism": {
+            "x": 2850,
+            "y": 4575,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Scientific Communism",
+                "Soviet Technocracy",
+                "Economic Reformism"
+            ]
+        },
+        "Systems Analysis Movement": {
+            "x": 3000,
+            "y": 4750,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Soviet Technocratic Reformism"
+            ]
+        },
+        "Reform Communism": {
+            "x": 2700,
+            "y": 4925,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Suppressed Reform Current",
+                "Economic Reformism",
+                "Soviet Technocratic Reformism"
+            ]
+        },
+        "Human Rights Movement": {
+            "x": 1500,
+            "y": 3875,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Samizdat Culture": {
+            "x": 1650,
+            "y": 4050,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Dissident Movement": {
+            "x": 1600,
+            "y": 4225,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Human Rights Movement",
+                "Samizdat Culture",
+                "Humanist Socialism"
+            ]
+        },
+        "Democratic Socialism": {
+            "x": 1450,
+            "y": 4400,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Humanist Socialism",
+                "Dissident Movement"
+            ]
+        },
+        "Liberal Dissidence": {
+            "x": 1750,
+            "y": 4400,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Dissident Movement"
+            ]
+        },
+        "Russian National Revival": {
+            "x": 3350,
+            "y": 4225,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Village Prose Current": {
+            "x": 3200,
+            "y": 4400,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Russian National Revival"
+            ]
+        },
+        "Neo-Slavophile Revival": {
+            "x": 3500,
+            "y": 4400,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Russian National Revival"
+            ]
+        },
+        "National-Patriotic Current": {
+            "x": 3350,
+            "y": 4575,
+            "type": 1,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Village Prose Current",
+                "Neo-Slavophile Revival",
+                "Wartime National Bolshevism"
+            ]
+        },
+        "Young Reformers": {
+            "x": 2850,
+            "y": 5100,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Reform Communism",
+                "Systems Analysis Movement"
+            ]
+        },
+        "Perestroika": {
+            "x": 2650,
+            "y": 5275,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Reform Communism",
+                "Young Reformers",
+                "Soviet Technocratic Reformism"
+            ]
+        },
+        "Demokratizatsiya": {
+            "x": 2450,
+            "y": 5275,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Gorbachev Leadership": {
+            "x": 2550,
+            "y": 5450,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "CPSU",
+                "Perestroika",
+                "Demokratizatsiya"
+            ]
+        },
+        "Democratic Platform": {
+            "x": 2250,
+            "y": 5625,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Gorbachev Leadership",
+                "Demokratizatsiya",
+                "Liberal Dissidence"
+            ]
+        },
+        "Conservative CPSU Current": {
+            "x": 2850,
+            "y": 5625,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Gorbachev Leadership",
+                "Nomenklatura Conservatism"
+            ]
+        },
+        "Russian Democratic Movement": {
+            "x": 2050,
+            "y": 5800,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Platform",
+                "Liberal Dissidence"
+            ]
+        },
+        "Market Liberalism": {
+            "x": 1850,
+            "y": 5800,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Yeltsin Camp": {
+            "x": 1950,
+            "y": 5975,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Russian Democratic Movement",
+                "Market Liberalism"
+            ]
+        },
+        "Shock Therapy": {
+            "x": 1700,
+            "y": 5975,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Market Liberalism"
+            ]
+        },
+        "Russia's Choice": {
+            "x": 1800,
+            "y": 6150,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Yeltsin Camp",
+                "Shock Therapy"
+            ]
+        },
+        "Liberal Reform Bloc": {
+            "x": 1800,
+            "y": 6325,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Russia's Choice"
+            ]
+        },
+        "Yabloko": {
+            "x": 1550,
+            "y": 6150,
+            "type": 2,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Russian Democratic Movement",
+                "Democratic Socialism"
+            ]
+        },
+        "Social Liberalism": {
+            "x": 1400,
+            "y": 5975,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Communist Opposition": {
+            "x": 3050,
+            "y": 5800,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Conservative CPSU Current"
+            ]
+        },
+        "Soviet Nostalgia": {
+            "x": 3250,
+            "y": 5800,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Russian Communist Revival": {
+            "x": 3150,
+            "y": 5975,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Soviet Nostalgia"
+            ]
+        },
+        "Communist Party of the Russian Federation": {
+            "x": 3150,
+            "y": 6150,
+            "type": 2,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Communist Opposition",
+                "Russian Communist Revival"
+            ]
+        },
+        "National Communism": {
+            "x": 3350,
+            "y": 6150,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "National-Patriotic Current",
+                "Russian Communist Revival"
+            ]
+        },
+        "Russian Nationalism": {
+            "x": 3850,
+            "y": 5800,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "National-Patriotic Current"
+            ]
+        },
+        "Neo-Eurasianism": {
+            "x": 4050,
+            "y": 5800,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "National-Bolshevism": {
+            "x": 3950,
+            "y": 5975,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "National Communism",
+                "Neo-Eurasianism"
+            ]
+        },
+        "Liberal Democratic Party of Russia": {
+            "x": 3750,
+            "y": 6150,
+            "type": 2,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Russian Nationalism"
+            ]
+        },
+        "Rodina": {
+            "x": 3950,
+            "y": 6325,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Russian Nationalism",
+                "National Communism",
+                "Neo-Eurasianism"
+            ]
+        },
+        "Party of Power": {
+            "x": 2550,
+            "y": 6150,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Conservative CPSU Current",
+                "Soviet Technocratic Reformism"
+            ]
+        },
+        "Our Home – Russia": {
+            "x": 2550,
+            "y": 6325,
+            "type": 1,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Party of Power"
+            ]
+        },
+        "Administrative Centrism": {
+            "x": 2750,
+            "y": 6325,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Unity": {
+            "x": 2650,
+            "y": 6500,
+            "type": 1,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Our Home – Russia",
+                "Administrative Centrism"
+            ]
+        },
+        "Managed Democracy": {
+            "x": 2850,
+            "y": 6500,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "United Russia": {
+            "x": 2750,
+            "y": 6675,
+            "type": 2,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Unity",
+                "Managed Democracy"
+            ]
+        },
+        "Sovereign Democracy": {
+            "x": 2950,
+            "y": 6675,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Putinism": {
+            "x": 2850,
+            "y": 6850,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "United Russia",
+                "Sovereign Democracy"
+            ]
+        },
+        "A Just Russia": {
+            "x": 2350,
+            "y": 6675,
+            "type": 2,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Socialism",
+                "Party of Power"
+            ]
+        },
+        "Anti-Corruption Liberalism": {
+            "x": 1200,
+            "y": 6500,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Liberal Dissidence"
+            ]
+        },
+        "Liberal Opposition": {
+            "x": 1300,
+            "y": 6675,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Yabloko",
+                "Anti-Corruption Liberalism"
+            ]
+        },
+        "Contemporary Russian State Conservatism": {
+            "x": 3050,
+            "y": 7025,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Putinism",
+                "Russian Nationalism"
+            ]
+        }
+    }
+}

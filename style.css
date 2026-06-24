@@ -235,7 +235,7 @@ div {
 
 .nodeText {
     position: absolute;
-    width: calc(var(--fontSize)*8);
+    width: calc(var(--fontSize)*7);
     z-index: 204;
     text-align: center;
     font-size: var(--fontSize);

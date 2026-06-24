@@ -118,6 +118,7 @@ function applySettings() {
     chart.style.height = `${data.metadata.chartHeight}px`
     widthPicker.value = data.metadata.chartWidth
     heightPicker.value = data.metadata.chartHeight
+    renderArrows()
 }
 function saveData() {
     data.metadata.chartWidth = parseInt(widthPicker.value)
@@ -188,7 +189,7 @@ function createNodeElement(name, nodeData) {
     text.className = "nodeText"
     text.textContent = name
     if (name.length >= 36) {
-        text.style.width = "calc(var(--fontSize)*13)"
+        text.style.width = "calc(var(--fontSize)*9)"
     }
     text.draggable = false
     /*if (nodeData.hyperlink) {
