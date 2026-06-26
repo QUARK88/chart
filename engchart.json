@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "chartWidth": 4200,
-        "chartHeight": 7150,
+        "chartWidth": 2100,
+        "chartHeight": 5600,
         "fontFamily": "expressway",
         "fontSize": 16,
         "gridGranularity": 25,
@@ -496,6 +496,1211 @@
             "hyperlink": "",
             "precursors": [
                 "Labour Party"
+            ]
+        },
+        "National Efficiency": {
+            "x": 1000,
+            "y": 1200,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Lloyd George Liberals": {
+            "x": 700,
+            "y": 1550,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "New Liberals",
+                "National Efficiency"
+            ]
+        },
+        "Asquith Liberals": {
+            "x": 500,
+            "y": 1550,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "New Liberals"
+            ]
+        },
+        "Coalition Liberalism": {
+            "x": 800,
+            "y": 1700,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "National Liberal Party": {
+            "x": 800,
+            "y": 1850,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Lloyd George Liberals",
+                "Coalition Liberalism"
+            ]
+        },
+        "Independent Liberalism": {
+            "x": 450,
+            "y": 1700,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Independent Liberals": {
+            "x": 450,
+            "y": 1850,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Asquith Liberals",
+                "Independent Liberalism"
+            ]
+        },
+        "Democratic Socialism": {
+            "x": 50,
+            "y": 1550,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Labour Mainstream": {
+            "x": 250,
+            "y": 1650,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Moderate Labour",
+                "Democratic Socialism"
+            ]
+        },
+        "Guild Socialists": {
+            "x": 75,
+            "y": 1700,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Left"
+            ]
+        },
+        "Marxism": {
+            "x": -100,
+            "y": 1650,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Communist Party of Great Britain": {
+            "x": -50,
+            "y": 1800,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Guild Socialists;Partial influence",
+                "Marxism"
+            ]
+        },
+        "Conservative Unionism": {
+            "x": 1400,
+            "y": 1550,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Interwar Conservatives": {
+            "x": 1400,
+            "y": 1700,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Unionist Conservative Party",
+                "Conservative Unionism"
+            ]
+        },
+        "Conservative Imperialism": {
+            "x": 1600,
+            "y": 1550,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Imperial Preference"
+            ]
+        },
+        "Empire Conservatives": {
+            "x": 1600,
+            "y": 1700,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Interwar Conservatives",
+                "Conservative Imperialism"
+            ]
+        },
+        "British Fascism": {
+            "x": 1800,
+            "y": 1750,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "British Fascists": {
+            "x": 1750,
+            "y": 1900,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "British Fascism"
+            ]
+        },
+        "Mosleyism": {
+            "x": 1900,
+            "y": 1900,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "British Union of Fascists": {
+            "x": 1850,
+            "y": 2050,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "British Fascists",
+                "Mosleyism"
+            ]
+        },
+        "Irish Republicanism": {
+            "x": 1200,
+            "y": 1550,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Irish Free State Supporters": {
+            "x": 1100,
+            "y": 1700,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Sinn Féin",
+                "Irish Republicanism"
+            ]
+        },
+        "Anti-Treaty Republicanism": {
+            "x": 1300,
+            "y": 1700,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Anti-Treaty Republicans": {
+            "x": 1300,
+            "y": 1850,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Sinn Féin;Anti-Treaty split",
+                "Anti-Treaty Republicanism"
+            ]
+        },
+        "Labour Government Tradition": {
+            "x": 350,
+            "y": 1800,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "MacDonald Labour": {
+            "x": 300,
+            "y": 1950,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Mainstream",
+                "Labour Government Tradition"
+            ]
+        },
+        "National Government": {
+            "x": 950,
+            "y": 2050,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "National Liberal Party;Coalition partner",
+                "Interwar Conservatives;Coalition partner",
+                "MacDonald Labour;Defection"
+            ]
+        },
+        "National Labour": {
+            "x": 500,
+            "y": 2200,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "MacDonald Labour;Split",
+                "National Government"
+            ]
+        },
+        "Social Democratic Labourism": {
+            "x": 200,
+            "y": 2200,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Attlee Labour": {
+            "x": 250,
+            "y": 2350,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "MacDonald Labour",
+                "Social Democratic Labourism"
+            ]
+        },
+        "Keynesianism": {
+            "x": 50,
+            "y": 2350,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Social Democracy": {
+            "x": 250,
+            "y": 2500,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Post-War Labour Consensus": {
+            "x": 150,
+            "y": 2650,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Attlee Labour",
+                "Keynesianism",
+                "Social Democracy"
+            ]
+        },
+        "Post-War Conservatives": {
+            "x": 1400,
+            "y": 2500,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Interwar Conservatives",
+                "One-Nation Conservatism"
+            ]
+        },
+        "Post-War Liberal Party": {
+            "x": 650,
+            "y": 2500,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Independent Liberals",
+                "National Liberal Party;Partial reunification"
+            ]
+        },
+        "Post-War Consensus": {
+            "x": 800,
+            "y": 2650,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Butskellism": {
+            "x": 800,
+            "y": 2800,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Post-War Labour Consensus",
+                "Post-War Conservatives",
+                "Post-War Consensus"
+            ]
+        },
+        "Revisionism": {
+            "x": 50,
+            "y": 2800,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Labour Revisionists": {
+            "x": 200,
+            "y": 2950,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Attlee Labour",
+                "Revisionism"
+            ]
+        },
+        "Bennism": {
+            "x": 50,
+            "y": 3100,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Labour Left Revival": {
+            "x": 150,
+            "y": 3250,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Revisionists;Left opposition",
+                "Bennism"
+            ]
+        },
+        "Social Liberalism": {
+            "x": 500,
+            "y": 2800,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Community Politics": {
+            "x": 650,
+            "y": 2800,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Liberal Revival": {
+            "x": 575,
+            "y": 2950,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Post-War Liberal Party",
+                "Social Liberalism",
+                "Community Politics"
+            ]
+        },
+        "Powellism": {
+            "x": 1650,
+            "y": 2800,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Powellite Conservatives": {
+            "x": 1550,
+            "y": 2950,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Post-War Conservatives",
+                "Powellism"
+            ]
+        },
+        "Free Market Conservatism": {
+            "x": 1350,
+            "y": 3100,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Monetarism": {
+            "x": 1500,
+            "y": 3100,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Thatcherism": {
+            "x": 1425,
+            "y": 3250,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Post-War Conservatives",
+                "Free Market Conservatism",
+                "Monetarism"
+            ]
+        },
+        "Social Democratic Party": {
+            "x": 400,
+            "y": 3250,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Revisionists;Moderate split"
+            ]
+        },
+        "Liberal Alliance": {
+            "x": 500,
+            "y": 3400,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Social Democratic Party;Alliance partner",
+                "Liberal Revival;Alliance partner"
+            ]
+        },
+        "Liberal Democrats": {
+            "x": 500,
+            "y": 3550,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Social Democratic Party;Merger component",
+                "Liberal Revival;Merger component",
+                "Social Liberalism"
+            ]
+        },
+        "Green Politics": {
+            "x": 750,
+            "y": 3400,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Environmentalism": {
+            "x": 900,
+            "y": 3400,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Green Party": {
+            "x": 825,
+            "y": 3550,
+            "type": 2,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Green Politics",
+                "Environmentalism"
+            ]
+        },
+        "Euroscepticism": {
+            "x": 1750,
+            "y": 3400,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Anti-Federalism": {
+            "x": 1900,
+            "y": 3400,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Referendum Party": {
+            "x": 1825,
+            "y": 3550,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Euroscepticism",
+                "Anti-Federalism"
+            ]
+        },
+        "New Labour": {
+            "x": 250,
+            "y": 3550,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Revisionists",
+                "Social Liberalism;Third Way influence"
+            ]
+        },
+        "Third Way": {
+            "x": 100,
+            "y": 3700,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Blairism": {
+            "x": 200,
+            "y": 3850,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "New Labour",
+                "Third Way"
+            ]
+        },
+        "Brownism": {
+            "x": 350,
+            "y": 3850,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "New Labour"
+            ]
+        },
+        "Compassionate Conservatism": {
+            "x": 1250,
+            "y": 3700,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Modernising Conservatives": {
+            "x": 1325,
+            "y": 3850,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Thatcherism",
+                "Compassionate Conservatism"
+            ]
+        },
+        "UK Independence Party": {
+            "x": 1825,
+            "y": 3850,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Referendum Party",
+                "Euroscepticism"
+            ]
+        },
+        "Scottish Devolution": {
+            "x": 1000,
+            "y": 3550,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Welsh Devolution": {
+            "x": 1150,
+            "y": 3550,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Devolution Settlement": {
+            "x": 1075,
+            "y": 3700,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Scottish Devolution",
+                "Welsh Devolution"
+            ]
+        },
+        "Progressive Conservatism": {
+            "x": 1200,
+            "y": 4000,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Cameronism": {
+            "x": 1275,
+            "y": 4150,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Modernising Conservatives",
+                "Progressive Conservatism"
+            ]
+        },
+        "Blue Labour": {
+            "x": 50,
+            "y": 4000,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Post-Blair Labour": {
+            "x": 250,
+            "y": 4150,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Blairism",
+                "Brownism"
+            ]
+        },
+        "Soft Euroscepticism": {
+            "x": 1650,
+            "y": 4000,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Hard Euroscepticism": {
+            "x": 1800,
+            "y": 4000,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Brexit Movement": {
+            "x": 1725,
+            "y": 4150,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "UK Independence Party",
+                "Soft Euroscepticism",
+                "Hard Euroscepticism"
+            ]
+        },
+        "Liberal Democrat Centrism": {
+            "x": 500,
+            "y": 4000,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Modern Liberal Democrats": {
+            "x": 500,
+            "y": 4150,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Liberal Democrats",
+                "Liberal Democrat Centrism"
+            ]
+        },
+        "Green Left": {
+            "x": 700,
+            "y": 4000,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Eco-Socialism": {
+            "x": 850,
+            "y": 4000,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Modern Green Party": {
+            "x": 775,
+            "y": 4150,
+            "type": 2,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Green Party",
+                "Green Left",
+                "Eco-Socialism"
+            ]
+        },
+        "Scottish Civic Nationalism": {
+            "x": 950,
+            "y": 4000,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Scottish National Party": {
+            "x": 950,
+            "y": 4150,
+            "type": 2,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Devolution Settlement",
+                "Scottish Civic Nationalism"
+            ]
+        },
+        "Welsh Civic Nationalism": {
+            "x": 1100,
+            "y": 4000,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Plaid Cymru": {
+            "x": 1100,
+            "y": 4150,
+            "type": 2,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Devolution Settlement",
+                "Welsh Civic Nationalism"
+            ]
+        },
+        "Conservative Euroscepticism": {
+            "x": 1450,
+            "y": 4300,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Mayism": {
+            "x": 1350,
+            "y": 4450,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Cameronism",
+                "Conservative Euroscepticism"
+            ]
+        },
+        "National Conservatism": {
+            "x": 1550,
+            "y": 4450,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Johnson Conservatives": {
+            "x": 1500,
+            "y": 4600,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Mayism",
+                "Brexit Movement",
+                "National Conservatism"
+            ]
+        },
+        "Post-Brexit Conservatism": {
+            "x": 1400,
+            "y": 4750,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Sunak Conservatives": {
+            "x": 1400,
+            "y": 4900,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Johnson Conservatives",
+                "Post-Brexit Conservatism"
+            ]
+        },
+        "Reform UK": {
+            "x": 1800,
+            "y": 4600,
+            "type": 2,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "UK Independence Party",
+                "Brexit Movement",
+                "National Conservatism"
+            ]
+        },
+        "Corbynism": {
+            "x": 50,
+            "y": 4300,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Anti-Austerity Movement": {
+            "x": 200,
+            "y": 4300,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Corbyn Labour": {
+            "x": 125,
+            "y": 4450,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Post-Blair Labour",
+                "Corbynism",
+                "Anti-Austerity Movement"
+            ]
+        },
+        "Labour Centre-Left": {
+            "x": 350,
+            "y": 4450,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Post-Blair Labour",
+                "Blue Labour;Partial influence"
+            ]
+        },
+        "Electoral Pragmatism": {
+            "x": 250,
+            "y": 4750,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Starmerism": {
+            "x": 250,
+            "y": 4900,
+            "type": 2,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Centre-Left",
+                "Electoral Pragmatism"
+            ]
+        },
+        "Left-Wing Populism": {
+            "x": 50,
+            "y": 4750,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Corbynite Left": {
+            "x": 75,
+            "y": 4900,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Corbyn Labour",
+                "Left-Wing Populism"
+            ]
+        },
+        "Pro-European Liberalism": {
+            "x": 600,
+            "y": 4450,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Contemporary Liberal Democrats": {
+            "x": 550,
+            "y": 4600,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Modern Liberal Democrats",
+                "Pro-European Liberalism"
+            ]
+        },
+        "Climate Politics": {
+            "x": 800,
+            "y": 4450,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Contemporary Greens": {
+            "x": 800,
+            "y": 4600,
+            "type": 2,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Modern Green Party",
+                "Climate Politics"
+            ]
+        },
+        "2024 Labour Majority": {
+            "x": 325,
+            "y": 5050,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Starmerism"
+            ]
+        },
+        "Labour Government Pragmatism": {
+            "x": 175,
+            "y": 5050,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Governing Labour": {
+            "x": 250,
+            "y": 5200,
+            "type": 2,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "2024 Labour Majority",
+                "Labour Government Pragmatism"
+            ]
+        },
+        "One-Nation Labour": {
+            "x": 75,
+            "y": 5200,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Starmerism",
+                "Blue Labour;Continuing influence"
+            ]
+        },
+        "Post-Sunak Conservatism": {
+            "x": 1400,
+            "y": 5050,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Opposition Conservatives": {
+            "x": 1400,
+            "y": 5200,
+            "type": 2,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Sunak Conservatives",
+                "Post-Sunak Conservatism"
+            ]
+        },
+        "Conservative Right": {
+            "x": 1550,
+            "y": 5200,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Johnson Conservatives;Continuing tendency",
+                "National Conservatism"
+            ]
+        },
+        "Post-Brexit Populism": {
+            "x": 1850,
+            "y": 5050,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Faragism": {
+            "x": 2000,
+            "y": 5050,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Contemporary Reform UK": {
+            "x": 1925,
+            "y": 5200,
+            "type": 2,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Reform UK",
+                "Post-Brexit Populism",
+                "Faragism"
+            ]
+        },
+        "Liberal Anti-Populism": {
+            "x": 650,
+            "y": 5050,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Community Liberalism": {
+            "x": 500,
+            "y": 5050,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Liberal Democrat Revival": {
+            "x": 575,
+            "y": 5200,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Contemporary Liberal Democrats",
+                "Liberal Anti-Populism",
+                "Community Liberalism"
+            ]
+        },
+        "Green New Deal Politics": {
+            "x": 775,
+            "y": 5050,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Environmental Justice": {
+            "x": 925,
+            "y": 5050,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Contemporary Green Movement": {
+            "x": 850,
+            "y": 5200,
+            "type": 2,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Contemporary Greens",
+                "Green New Deal Politics",
+                "Environmental Justice"
+            ]
+        },
+        "Independence Movement": {
+            "x": 975,
+            "y": 5050,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Contemporary SNP": {
+            "x": 1000,
+            "y": 5200,
+            "type": 2,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Scottish National Party",
+                "Independence Movement"
+            ]
+        },
+        "Welsh Autonomism": {
+            "x": 1150,
+            "y": 5050,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Contemporary Plaid Cymru": {
+            "x": 1150,
+            "y": 5200,
+            "type": 2,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Plaid Cymru",
+                "Welsh Autonomism"
+            ]
+        },
+        "Residual Communist Tradition": {
+            "x": 50,
+            "y": 5350,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Contemporary Communist Current": {
+            "x": 50,
+            "y": 5500,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Communist Party of Great Britain",
+                "Residual Communist Tradition"
             ]
         }
     }
