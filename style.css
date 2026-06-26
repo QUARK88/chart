@@ -279,8 +279,7 @@ div {
 #settings {
     z-index: 100;
     padding: 25px;
-    width: 100vw;
-    height: 1000px;
+    height: 750px;
 }
 
 #settingsContainer {

@@ -1,0 +1,502 @@
+{
+    "metadata": {
+        "chartWidth": 4200,
+        "chartHeight": 7150,
+        "fontFamily": "expressway",
+        "fontSize": 16,
+        "gridGranularity": 25,
+        "colors": [
+            "#d7191c",
+            "#fdbb30",
+            "#0087dc",
+            "#8b0000",
+            "#169b62",
+            "#4b2e83",
+            "#6abf4b",
+            "#808080",
+            "#7a5230",
+            "#00a0a0",
+            "#c0c0c0",
+            "#e0e0e0"
+        ]
+    },
+    "nodes": {
+        "Classical Radicalism": {
+            "x": 500,
+            "y": 100,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Parliamentary Reform": {
+            "x": 650,
+            "y": 100,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Whig Constitutionalism": {
+            "x": 800,
+            "y": 100,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Whigs": {
+            "x": 700,
+            "y": 200,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Parliamentary Reform",
+                "Whig Constitutionalism"
+            ]
+        },
+        "Radical Reformers": {
+            "x": 500,
+            "y": 250,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Classical Radicalism"
+            ]
+        },
+        "Manchester Liberalism": {
+            "x": 350,
+            "y": 350,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Free Trade": {
+            "x": 550,
+            "y": 350,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Liberal Party": {
+            "x": 625,
+            "y": 450,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Whigs",
+                "Radical Reformers",
+                "Manchester Liberalism",
+                "Free Trade"
+            ]
+        },
+        "Traditional Toryism": {
+            "x": 1400,
+            "y": 100,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Anglican Conservatism": {
+            "x": 1550,
+            "y": 100,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Tories": {
+            "x": 1475,
+            "y": 200,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Traditional Toryism",
+                "Anglican Conservatism"
+            ]
+        },
+        "Conservative Party": {
+            "x": 1475,
+            "y": 350,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Tories"
+            ]
+        },
+        "Young England": {
+            "x": 1325,
+            "y": 450,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "One-Nation Conservatism": {
+            "x": 1475,
+            "y": 450,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Disraelian Conservatives": {
+            "x": 1400,
+            "y": 550,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Conservative Party",
+                "Young England",
+                "One-Nation Conservatism"
+            ]
+        },
+        "Irish Repeal Movement": {
+            "x": 950,
+            "y": 300,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Irish Parliamentary Party": {
+            "x": 950,
+            "y": 450,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Irish Repeal Movement"
+            ]
+        },
+        "Christian Socialism": {
+            "x": 250,
+            "y": 450,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Trade Unionism": {
+            "x": 100,
+            "y": 450,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Gladstonian Liberalism": {
+            "x": 500,
+            "y": 650,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Moral Reform Liberalism": {
+            "x": 700,
+            "y": 650,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Gladstonians": {
+            "x": 600,
+            "y": 750,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Liberal Party",
+                "Gladstonian Liberalism",
+                "Moral Reform Liberalism"
+            ]
+        },
+        "Liberal Imperialism": {
+            "x": 850,
+            "y": 650,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Liberal Imperialists": {
+            "x": 850,
+            "y": 750,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Liberal Party",
+                "Liberal Imperialism"
+            ]
+        },
+        "Unionism": {
+            "x": 1100,
+            "y": 650,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Home Rule Opposition": {
+            "x": 1250,
+            "y": 650,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Liberal Unionists": {
+            "x": 1175,
+            "y": 750,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Gladstonians;Home Rule split",
+                "Unionism",
+                "Home Rule Opposition"
+            ]
+        },
+        "Fabianism": {
+            "x": 250,
+            "y": 650,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Independent Labour Party": {
+            "x": 200,
+            "y": 850,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Trade Unionism",
+                "Christian Socialism"
+            ]
+        },
+        "Labour Representation Committee": {
+            "x": 300,
+            "y": 1000,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Independent Labour Party",
+                "Fabianism"
+            ]
+        },
+        "Labourism": {
+            "x": 150,
+            "y": 1150,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Labour Party": {
+            "x": 250,
+            "y": 1300,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Representation Committee",
+                "Labourism"
+            ]
+        },
+        "New Liberalism": {
+            "x": 550,
+            "y": 900,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Social Reform Liberalism": {
+            "x": 700,
+            "y": 900,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "New Liberals": {
+            "x": 625,
+            "y": 1050,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Gladstonians",
+                "New Liberalism",
+                "Social Reform Liberalism"
+            ]
+        },
+        "Liberal Imperial Federation": {
+            "x": 875,
+            "y": 950,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Imperial Liberals": {
+            "x": 900,
+            "y": 1100,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Liberal Imperialists",
+                "Liberal Imperial Federation"
+            ]
+        },
+        "Tariff Reform": {
+            "x": 1350,
+            "y": 950,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Imperial Preference": {
+            "x": 1500,
+            "y": 950,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Unionist Coalition": {
+            "x": 1425,
+            "y": 1100,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Disraelian Conservatives",
+                "Liberal Unionists;Coalition partner",
+                "Tariff Reform"
+            ]
+        },
+        "Unionist Conservatism": {
+            "x": 1425,
+            "y": 1250,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Imperial Preference"
+            ]
+        },
+        "Unionist Conservative Party": {
+            "x": 1425,
+            "y": 1400,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Unionist Coalition",
+                "Unionist Conservatism"
+            ]
+        },
+        "Irish Home Rule": {
+            "x": 1000,
+            "y": 900,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Constitutional Nationalism": {
+            "x": 1150,
+            "y": 900,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Redmondites": {
+            "x": 1075,
+            "y": 1050,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Irish Parliamentary Party",
+                "Irish Home Rule",
+                "Constitutional Nationalism"
+            ]
+        },
+        "Republican Separatism": {
+            "x": 1200,
+            "y": 1200,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Cultural Nationalism": {
+            "x": 1350,
+            "y": 1200,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Sinn Féin": {
+            "x": 1275,
+            "y": 1350,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Republican Separatism",
+                "Cultural Nationalism"
+            ]
+        },
+        "Guild Socialism": {
+            "x": 50,
+            "y": 1250,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Labour Left": {
+            "x": 100,
+            "y": 1400,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Party",
+                "Guild Socialism"
+            ]
+        },
+        "Moderate Labour": {
+            "x": 400,
+            "y": 1400,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labour Party"
+            ]
+        }
+    }
+}

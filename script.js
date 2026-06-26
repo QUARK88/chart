@@ -141,11 +141,13 @@ heightPicker.value = data.metadata.chartHeight
 widthPicker.addEventListener("input", () => {
     data.metadata.chartWidth = parseInt(widthPicker.value) || 2000
     chart.style.width = `${data.metadata.chartWidth}px`
+    renderNodes()
     saveData()
 })
 heightPicker.addEventListener("input", () => {
     data.metadata.chartHeight = parseInt(heightPicker.value) || 2000
     chart.style.height = `${data.metadata.chartHeight}px`
+    renderNodes()
     saveData()
 })
 fontSizeInput.value = data.metadata.fontSize
@@ -175,6 +177,20 @@ function toggleSettings() {
 function toggleGridBackground() {
     chart.classList.toggle("gridBackground")
     toggleSettings()
+}
+function adjustChartSize() {
+    const nodes = Object.values(data.nodes)
+    const chartX = Math.max(...nodes.map(node => node.x)) + 100
+    const chartY = Math.max(...nodes.map(node => node.y)) + 100
+    chart.style.width = `${chartX}px`
+    chart.style.height = `${chartY}px`
+    widthPicker.value = chartX
+    heightPicker.value = chartY
+    saveData()
+    applySettings()
+    toggleSettings()
+    renderNodes()
+    console.log("Bruh", chartX, chartY)
 }
 function getNode(name) {
     return data.nodes[name]
@@ -738,6 +754,12 @@ canchart.addEventListener("click", () => loadBuiltInChart("./canchart.json")
 uschart.addEventListener("click", () => loadBuiltInChart("./uschart.json")
 )
 frchart.addEventListener("click", () => loadBuiltInChart("./frchart.json")
+)
+ruschart.addEventListener("click", () => loadBuiltInChart("./ruschart.json")
+)
+gerchart.addEventListener("click", () => loadBuiltInChart("./gerchart.json")
+)
+engchart.addEventListener("click", () => loadBuiltInChart("./engchart.json")
 )
 resetButton.addEventListener("click", () => {
     if (!confirm("This will permanently delete all chart data. Continue?"))

@@ -56,7 +56,7 @@
             <div class="buttonContainer">
                 <button onclick="exportData()">Export data</button>
                 <button onclick="importData()">Import data</button>
-                <button onclick="toggleGridBackground()">Toggle grid</button>
+                <button onclick="adjustChartSize()">Adjust chart size</button>
                 <button onclick="setFont('aptly')" style="font-family:aptly">Aptly font</button>
                 <button onclick="setFont('expressway')" style="font-family:expressway">Expressway font</button>
                 <button onclick="setFont('gobold')" style="font-family:gobold">Gobold font</button>
@@ -71,16 +71,24 @@
             <div class="buttonContainer">
                 <button id="screenshotButton">Save as PNG image</button>
                 <button id="resetButton">Reset all data</button>
-                <button id="idk">Useless button</button>
-                <button id="canchart">Load Canada chart</button>
-                <button id="uschart">Load US chart</button>
-                <button id="frchart">Load France chart</button>
+                <button onclick="toggleGridBackground()">Toggle grid</button>
+                <button>Useless button</button>
+                <button>Useless button</button>
+                <button>Useless button</button>
             </div>
             <div class="inputContainer">
                 <label for="fontSize">Font size:</label>
                 <input id="fontSize" type="number" step=".5" min="0" value="16" name="fontSize">
                 <label for="gridGranularity">Grid granularity:</label>
                 <input id="gridGranularity" type="number" step="1" min="1" value="25" name="gridGranularity">
+            </div>
+            <div class="buttonContainer">
+                <button id="canchart">Load Canada chart</button>
+                <button id="uschart">Load US chart</button>
+                <button id="frchart">Load France chart</button>
+                <button id="ruschart">Load Russia chart</button>
+                <button id="gerchart">Load Germany chart</button>
+                <button id="engchart">Load Britain chart</button>
             </div>
         </div>
     </div>

@@ -1,0 +1,1294 @@
+{
+    "metadata": {
+        "chartWidth": 2700,
+        "chartHeight": 3900,
+        "fontFamily": "expressway",
+        "fontSize": 16,
+        "gridGranularity": 25,
+        "colors": [
+            "#4d8fd6",
+            "#d68f3c",
+            "#6cbf6c",
+            "#c94d4d",
+            "#d60000",
+            "#444444",
+            "#8c6239",
+            "#7b5ea7",
+            "#5aa6a6",
+            "#c97bb1",
+            "#8f8f8f",
+            "#d8c85a"
+        ]
+    },
+    "nodes": {
+        "National Liberalism": {
+            "x": 800,
+            "y": 100,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Constitutional Liberalism": {
+            "x": 950,
+            "y": 100,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "National Liberal Party": {
+            "x": 875,
+            "y": 225,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "National Liberalism",
+                "Constitutional Liberalism"
+            ]
+        },
+        "Left Liberalism": {
+            "x": 650,
+            "y": 225,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Progressive People's Party": {
+            "x": 700,
+            "y": 350,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Left Liberalism"
+            ]
+        },
+        "Political Catholicism": {
+            "x": 1150,
+            "y": 100,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Catholic Social Teaching": {
+            "x": 1300,
+            "y": 100,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Centre Party": {
+            "x": 1225,
+            "y": 225,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Political Catholicism",
+                "Catholic Social Teaching"
+            ]
+        },
+        "Prussian Conservatism": {
+            "x": 1550,
+            "y": 100,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Monarchism": {
+            "x": 1700,
+            "y": 100,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "German Conservative Party": {
+            "x": 1625,
+            "y": 225,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Prussian Conservatism",
+                "Monarchism"
+            ]
+        },
+        "Free Conservative Party": {
+            "x": 1775,
+            "y": 225,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Prussian Conservatism"
+            ]
+        },
+        "Lassallean Socialism": {
+            "x": 250,
+            "y": 100,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Marxism": {
+            "x": 400,
+            "y": 100,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Social Democratic Workers' Party": {
+            "x": 325,
+            "y": 225,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Marxism"
+            ]
+        },
+        "General German Workers' Association": {
+            "x": 175,
+            "y": 225,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Lassallean Socialism"
+            ]
+        },
+        "Social Democracy": {
+            "x": 500,
+            "y": 350,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "SPD": {
+            "x": 325,
+            "y": 475,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "General German Workers' Association",
+                "Social Democratic Workers' Party",
+                "Social Democracy"
+            ]
+        },
+        "Pan-Germanism": {
+            "x": 2100,
+            "y": 100,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Ethnic Nationalism": {
+            "x": 2250,
+            "y": 100,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Pan-German League": {
+            "x": 2175,
+            "y": 225,
+            "type": 1,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Pan-Germanism",
+                "Ethnic Nationalism"
+            ]
+        },
+        "Revisionism": {
+            "x": 175,
+            "y": 650,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Revolutionary Socialism": {
+            "x": 475,
+            "y": 650,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "SPD Revisionists": {
+            "x": 175,
+            "y": 775,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "SPD",
+                "Revisionism"
+            ]
+        },
+        "SPD Left": {
+            "x": 475,
+            "y": 775,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "SPD",
+                "Revolutionary Socialism"
+            ]
+        },
+        "Christian Social Conservatism": {
+            "x": 1300,
+            "y": 650,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Centre Reform Wing": {
+            "x": 1225,
+            "y": 775,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Centre Party",
+                "Christian Social Conservatism"
+            ]
+        },
+        "Authoritarian Nationalism": {
+            "x": 1950,
+            "y": 650,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Imperial Nationalism": {
+            "x": 2150,
+            "y": 650,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Nationalist Right": {
+            "x": 2050,
+            "y": 775,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "German Conservative Party",
+                "Authoritarian Nationalism",
+                "Imperial Nationalism"
+            ]
+        },
+        "Majority Social Democracy": {
+            "x": 225,
+            "y": 900,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "MSPD": {
+            "x": 225,
+            "y": 1000,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "SPD",
+                "SPD Revisionists",
+                "Majority Social Democracy"
+            ]
+        },
+        "Anti-War Socialism": {
+            "x": 425,
+            "y": 900,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "USPD": {
+            "x": 425,
+            "y": 1000,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "SPD",
+                "SPD Left",
+                "Anti-War Socialism"
+            ]
+        },
+        "Council Communism": {
+            "x": 575,
+            "y": 1100,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Spartacist League": {
+            "x": 575,
+            "y": 1200,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "USPD",
+                "Council Communism"
+            ]
+        },
+        "Leninism": {
+            "x": 725,
+            "y": 1100,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "KPD": {
+            "x": 675,
+            "y": 1300,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Spartacist League",
+                "Leninism"
+            ]
+        },
+        "Parliamentary Social Democracy": {
+            "x": 125,
+            "y": 1200,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Weimar SPD": {
+            "x": 225,
+            "y": 1300,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "MSPD",
+                "Parliamentary Social Democracy"
+            ]
+        },
+        "Republican Liberalism": {
+            "x": 775,
+            "y": 900,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "German Democratic Party": {
+            "x": 775,
+            "y": 1000,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Progressive People's Party",
+                "Republican Liberalism"
+            ]
+        },
+        "Economic Liberalism": {
+            "x": 975,
+            "y": 900,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "German People's Party": {
+            "x": 975,
+            "y": 1000,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "National Liberal Party",
+                "Economic Liberalism"
+            ]
+        },
+        "Christian Democracy": {
+            "x": 1225,
+            "y": 900,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Centre Party Weimar Wing": {
+            "x": 1225,
+            "y": 1000,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Centre Reform Wing",
+                "Christian Democracy"
+            ]
+        },
+        "Conservative Revolution": {
+            "x": 1825,
+            "y": 900,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "DNVP": {
+            "x": 1925,
+            "y": 1000,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Nationalist Right",
+                "Conservative Revolution"
+            ]
+        },
+        "Völkisch Movement": {
+            "x": 2225,
+            "y": 900,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Pan-Germanism",
+                "Ethnic Nationalism"
+            ]
+        },
+        "National Socialism": {
+            "x": 2375,
+            "y": 1000,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "NSDAP": {
+            "x": 2300,
+            "y": 1150,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Völkisch Movement",
+                "National Socialism"
+            ]
+        },
+        "Strasserism": {
+            "x": 2500,
+            "y": 1150,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Strasser Current": {
+            "x": 2500,
+            "y": 1250,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "NSDAP",
+                "Strasserism"
+            ]
+        },
+        "National Bolshevism": {
+            "x": 850,
+            "y": 1450,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "KPD",
+                "Conservative Revolution"
+            ]
+        },
+        "Revolutionary Trade Unionism": {
+            "x": 575,
+            "y": 1450,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "KPD Left": {
+            "x": 675,
+            "y": 1550,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "KPD",
+                "Revolutionary Trade Unionism"
+            ]
+        },
+        "Nazi Establishment": {
+            "x": 2300,
+            "y": 1350,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "NSDAP"
+            ]
+        },
+        "Hitlerism": {
+            "x": 2450,
+            "y": 1350,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "National Socialism"
+            ]
+        },
+        "Totalitarian Mobilization": {
+            "x": 2600,
+            "y": 1350,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Official National Socialism": {
+            "x": 2450,
+            "y": 1450,
+            "type": 0,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Hitlerism",
+                "Totalitarian Mobilization"
+            ]
+        },
+        "German Resistance": {
+            "x": 1700,
+            "y": 1450,
+            "type": 0,
+            "color": 10,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Social Democratic Exile": {
+            "x": 250,
+            "y": 1450,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Weimar SPD"
+            ]
+        },
+        "Communist Exile": {
+            "x": 700,
+            "y": 1700,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "KPD"
+            ]
+        },
+        "Christian Democratic Renewal": {
+            "x": 1200,
+            "y": 1450,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Christian Democracy"
+            ]
+        },
+        "Conservative Democracy": {
+            "x": 1400,
+            "y": 1450,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Occupation-Era Liberalism": {
+            "x": 900,
+            "y": 1450,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Post-War SPD": {
+            "x": 250,
+            "y": 1600,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Social Democratic Exile"
+            ]
+        },
+        "SED": {
+            "x": 600,
+            "y": 1600,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Communist Exile",
+                "KPD"
+            ]
+        },
+        "Anti-Fascism": {
+            "x": 450,
+            "y": 1500,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "State Socialism": {
+            "x": 750,
+            "y": 1500,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "East German Communism": {
+            "x": 600,
+            "y": 1700,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "SED",
+                "Anti-Fascism",
+                "State Socialism"
+            ]
+        },
+        "CDU": {
+            "x": 1300,
+            "y": 1600,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Centre Party Weimar Wing",
+                "Christian Democratic Renewal",
+                "Conservative Democracy"
+            ]
+        },
+        "Christian Humanism": {
+            "x": 1150,
+            "y": 1700,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Social Market Economy": {
+            "x": 1450,
+            "y": 1700,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "CSU": {
+            "x": 1550,
+            "y": 1600,
+            "type": 2,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Christian Democratic Renewal",
+                "Conservative Democracy"
+            ]
+        },
+        "FDP": {
+            "x": 950,
+            "y": 1600,
+            "type": 2,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "German Democratic Party",
+                "German People's Party",
+                "Occupation-Era Liberalism"
+            ]
+        },
+        "Civil Libertarianism": {
+            "x": 850,
+            "y": 1700,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "German National Conservatism": {
+            "x": 1800,
+            "y": 1600,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "DNVP"
+            ]
+        },
+        "Post-War Nationalism": {
+            "x": 2050,
+            "y": 1600,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Völkisch Movement"
+            ]
+        },
+        "German Party": {
+            "x": 1900,
+            "y": 1700,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "German National Conservatism"
+            ]
+        },
+        "Ordoliberalism": {
+            "x": 900,
+            "y": 1850,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Classical FDP": {
+            "x": 975,
+            "y": 1950,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "FDP",
+                "Ordoliberalism",
+                "Economic Liberalism"
+            ]
+        },
+        "Post-War Christian Democracy": {
+            "x": 1350,
+            "y": 1950,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Christian Humanism",
+                "Social Market Economy"
+            ]
+        },
+        "Adenauer CDU": {
+            "x": 1350,
+            "y": 2050,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "CDU",
+                "Post-War Christian Democracy"
+            ]
+        },
+        "People's Party Conservatism": {
+            "x": 1550,
+            "y": 2150,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "CDU Mainstream": {
+            "x": 1450,
+            "y": 2250,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Adenauer CDU",
+                "People's Party Conservatism"
+            ]
+        },
+        "Democratic Socialism": {
+            "x": 250,
+            "y": 1850,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Godesberg Revisionism": {
+            "x": 400,
+            "y": 1850,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Post-Godesberg SPD": {
+            "x": 325,
+            "y": 1950,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Post-War SPD",
+                "Democratic Socialism",
+                "Godesberg Revisionism"
+            ]
+        },
+        "Social Liberalism": {
+            "x": 600,
+            "y": 2150,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "SPD-FDP Reform Coalition": {
+            "x": 475,
+            "y": 2250,
+            "type": 1,
+            "color": 11,
+            "hyperlink": "",
+            "precursors": [
+                "Post-Godesberg SPD",
+                "Classical FDP",
+                "Social Liberalism"
+            ]
+        },
+        "Orthodox Marxism-Leninism": {
+            "x": 700,
+            "y": 1850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "SED Establishment": {
+            "x": 700,
+            "y": 1950,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "SED",
+                "Orthodox Marxism-Leninism"
+            ]
+        },
+        "Reform Socialism": {
+            "x": 550,
+            "y": 2150,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "East German Dissidence": {
+            "x": 850,
+            "y": 2150,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Student Movement": {
+            "x": 650,
+            "y": 2350,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Extra-Parliamentary Opposition": {
+            "x": 650,
+            "y": 2450,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Student Movement"
+            ]
+        },
+        "New Left": {
+            "x": 500,
+            "y": 2550,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Extra-Parliamentary Opposition",
+                "Reform Socialism"
+            ]
+        },
+        "Environmentalism": {
+            "x": 750,
+            "y": 2550,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Green Movement": {
+            "x": 625,
+            "y": 2650,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "New Left",
+                "Environmentalism"
+            ]
+        },
+        "Ecologism": {
+            "x": 525,
+            "y": 2750,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Grassroots Democracy": {
+            "x": 725,
+            "y": 2750,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "The Greens": {
+            "x": 625,
+            "y": 2850,
+            "type": 2,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Green Movement",
+                "Ecologism",
+                "Grassroots Democracy"
+            ]
+        },
+        "National Conservatism": {
+            "x": 1850,
+            "y": 1950,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "German National Conservatism"
+            ]
+        },
+        "National Democratic Party": {
+            "x": 1850,
+            "y": 2050,
+            "type": 1,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "National Conservatism",
+                "Post-War Nationalism"
+            ]
+        },
+        "Democratic Awakening": {
+            "x": 900,
+            "y": 3000,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Round Table Reformism": {
+            "x": 1050,
+            "y": 3000,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Alliance 90": {
+            "x": 975,
+            "y": 3100,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Awakening",
+                "Round Table Reformism"
+            ]
+        },
+        "Democratic Socialism Party": {
+            "x": 550,
+            "y": 3000,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "SED Establishment;Majority continuity",
+                "Reform Socialism"
+            ]
+        },
+        "Post-Communism": {
+            "x": 700,
+            "y": 3000,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "PDS": {
+            "x": 625,
+            "y": 3100,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Socialism Party",
+                "Post-Communism"
+            ]
+        },
+        "Alliance 90/The Greens": {
+            "x": 800,
+            "y": 3250,
+            "type": 2,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Alliance 90;Merger component",
+                "The Greens;Merger component"
+            ]
+        },
+        "Reunified SPD": {
+            "x": 300,
+            "y": 3100,
+            "type": 2,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Post-Godesberg SPD"
+            ]
+        },
+        "Third Way Social Democracy": {
+            "x": 175,
+            "y": 3250,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Modern SPD Current": {
+            "x": 300,
+            "y": 3350,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Reunified SPD",
+                "Third Way Social Democracy"
+            ]
+        },
+        "Modern Christian Democracy": {
+            "x": 1400,
+            "y": 3000,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "CDU Modernizers": {
+            "x": 1400,
+            "y": 3100,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "CDU",
+                "Modern Christian Democracy"
+            ]
+        },
+        "Liberal Reformism": {
+            "x": 1150,
+            "y": 3000,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Modern FDP": {
+            "x": 1150,
+            "y": 3100,
+            "type": 2,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Classical FDP",
+                "Liberal Reformism"
+            ]
+        },
+        "Electoral Alternative 2005": {
+            "x": 450,
+            "y": 3450,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Modern SPD Current;Left split"
+            ]
+        },
+        "Democratic Socialist Left": {
+            "x": 650,
+            "y": 3450,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "The Left": {
+            "x": 550,
+            "y": 3550,
+            "type": 2,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "PDS;Merger component",
+                "Electoral Alternative 2005;Merger component",
+                "Democratic Socialist Left"
+            ]
+        },
+        "Left Conservatism": {
+            "x": 400,
+            "y": 3700,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "BSW": {
+            "x": 400,
+            "y": 3800,
+            "type": 2,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "The Left;Split",
+                "Left Conservatism"
+            ]
+        },
+        "Market Conservatism": {
+            "x": 1600,
+            "y": 3250,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Merkel CDU": {
+            "x": 1500,
+            "y": 3350,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "CDU Modernizers",
+                "Market Conservatism"
+            ]
+        },
+        "Eurocritical Liberalism": {
+            "x": 1950,
+            "y": 3250,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "AfD Founding Current": {
+            "x": 1950,
+            "y": 3350,
+            "type": 1,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "Eurocritical Liberalism"
+            ]
+        },
+        "National Populism": {
+            "x": 2150,
+            "y": 3500,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "AfD": {
+            "x": 2050,
+            "y": 3600,
+            "type": 2,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "AfD Founding Current",
+                "National Populism"
+            ]
+        },
+        "Contemporary Green Politics": {
+            "x": 850,
+            "y": 3400,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Green Pragmatism": {
+            "x": 1000,
+            "y": 3400,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Modern Greens": {
+            "x": 925,
+            "y": 3500,
+            "type": 2,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Alliance 90/The Greens",
+                "Contemporary Green Politics",
+                "Green Pragmatism"
+            ]
+        }
+    }
+}
