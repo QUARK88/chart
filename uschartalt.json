@@ -1,0 +1,1606 @@
+{
+    "metadata": {
+        "chartWidth": 1450,
+        "chartHeight": 1100,
+        "fontFamily": "expressway",
+        "fontSize": 16,
+        "gridGranularity": 25,
+        "colors": [
+            "#1f77b4",
+            "#d62728",
+            "#ff7f0e",
+            "#8b0000",
+            "#2ca02c",
+            "#9467bd",
+            "#17becf",
+            "#7f7f7f",
+            "#bcbd22",
+            "#8c564b",
+            "#c7c7c7",
+            "#e0e0e0"
+        ]
+    },
+    "nodes": {
+        "Republicanism": {
+            "x": 900,
+            "y": 100,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Federalism": {
+            "x": 1100,
+            "y": 100,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "American Revolution": {
+            "x": 1000,
+            "y": 250,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Republicanism",
+                "Federalism"
+            ]
+        },
+        "Jeffersonian Agrarianism": {
+            "x": 750,
+            "y": 250,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Anti-Federalism": {
+            "x": 900,
+            "y": 250,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Democratic-Republican Party": {
+            "x": 825,
+            "y": 400,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "American Revolution",
+                "Jeffersonian Agrarianism",
+                "Anti-Federalism"
+            ]
+        },
+        "Hamiltonianism": {
+            "x": 1200,
+            "y": 250,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Commercial Nationalism": {
+            "x": 1350,
+            "y": 250,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Federalist Party": {
+            "x": 1275,
+            "y": 400,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "American Revolution",
+                "Hamiltonianism",
+                "Commercial Nationalism"
+            ]
+        },
+        "Old Republicanism": {
+            "x": 650,
+            "y": 550,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Jeffersonians": {
+            "x": 700,
+            "y": 700,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic-Republican Party",
+                "Old Republicanism"
+            ]
+        },
+        "National Republicanism": {
+            "x": 1000,
+            "y": 550,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "American System": {
+            "x": 1150,
+            "y": 550,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "National Republicans": {
+            "x": 1075,
+            "y": 700,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic-Republican Party;Adams-Clay faction",
+                "National Republicanism",
+                "American System"
+            ]
+        },
+        "Jacksonian Democracy": {
+            "x": 550,
+            "y": 850,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Popular Democracy": {
+            "x": 700,
+            "y": 850,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Jacksonians": {
+            "x": 625,
+            "y": 1000,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Jeffersonians",
+                "Jacksonian Democracy",
+                "Popular Democracy"
+            ]
+        },
+        "Clay System": {
+            "x": 1000,
+            "y": 850,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Economic Modernization": {
+            "x": 1150,
+            "y": 850,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Adams-Clay Coalition": {
+            "x": 1075,
+            "y": 1000,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "National Republicans",
+                "Clay System",
+                "Economic Modernization"
+            ]
+        },
+        "States' Rights": {
+            "x": 450,
+            "y": 1000,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Southern Agrarianism": {
+            "x": 300,
+            "y": 1150,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Southern Democrats": {
+            "x": 400,
+            "y": 1300,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Party",
+                "States' Rights",
+                "Southern Agrarianism"
+            ]
+        },
+        "Northern Democrats": {
+            "x": 700,
+            "y": 1300,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Party"
+            ]
+        },
+        "Southern Nationalism": {
+            "x": 250,
+            "y": 1450,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Fire-Eaters": {
+            "x": 300,
+            "y": 1600,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Southern Democrats",
+                "Southern Nationalism"
+            ]
+        },
+        "Free Soil": {
+            "x": 850,
+            "y": 1150,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Anti-Slavery Whigs": {
+            "x": 1000,
+            "y": 1300,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Whig Party",
+                "Free Soil"
+            ]
+        },
+        "Conscience Whigs": {
+            "x": 1200,
+            "y": 1300,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Whig Party",
+                "Free Soil"
+            ]
+        },
+        "Cotton Whigs": {
+            "x": 1400,
+            "y": 1300,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Whig Party"
+            ]
+        },
+        "Abolitionism": {
+            "x": 900,
+            "y": 1450,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Liberty Party": {
+            "x": 800,
+            "y": 1600,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Abolitionism"
+            ]
+        },
+        "Free Soil Party": {
+            "x": 1000,
+            "y": 1600,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Liberty Party",
+                "Free Soil",
+                "Anti-Slavery Whigs;Major component"
+            ]
+        },
+        "Nativism": {
+            "x": 1550,
+            "y": 1450,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Anti-Catholicism": {
+            "x": 1700,
+            "y": 1450,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Know Nothing Movement": {
+            "x": 1625,
+            "y": 1600,
+            "type": 1,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Nativism",
+                "Anti-Catholicism"
+            ]
+        },
+        "Republican Coalition": {
+            "x": 1100,
+            "y": 1900,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Free Soil Party;Principal component",
+                "Conscience Whigs;Principal component",
+                "Know Nothing Movement;Partial membership"
+            ]
+        },
+        "Republican Party": {
+            "x": 1100,
+            "y": 2050,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Republican Coalition"
+            ]
+        },
+        "Free Labor": {
+            "x": 950,
+            "y": 1900,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Lincoln Republicans": {
+            "x": 1000,
+            "y": 2200,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Republican Party",
+                "Free Labor"
+            ]
+        },
+        "Radical Republicanism": {
+            "x": 1200,
+            "y": 2200,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Radical Republicans": {
+            "x": 1200,
+            "y": 2350,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Lincoln Republicans",
+                "Radical Republicanism"
+            ]
+        },
+        "Moderate Republicanism": {
+            "x": 900,
+            "y": 2350,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Moderate Republicans": {
+            "x": 950,
+            "y": 2500,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Lincoln Republicans",
+                "Moderate Republicanism"
+            ]
+        },
+        "War Democrats": {
+            "x": 600,
+            "y": 2050,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Northern Democrats;Union faction"
+            ]
+        },
+        "Peace Democrats": {
+            "x": 400,
+            "y": 2050,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Northern Democrats;Copperhead faction"
+            ]
+        },
+        "Redeemers": {
+            "x": 350,
+            "y": 2500,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Southern Democrats",
+                "States' Rights;Post-Reconstruction"
+            ]
+        },
+        "Bourbon Democrats": {
+            "x": 550,
+            "y": 2500,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Northern Democrats",
+                "Economic Liberalism"
+            ]
+        },
+        "Economic Liberalism": {
+            "x": 650,
+            "y": 2350,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Stalwart Republicans": {
+            "x": 1100,
+            "y": 2800,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Moderate Republicans",
+                "Patronage Politics"
+            ]
+        },
+        "Half-Breeds": {
+            "x": 900,
+            "y": 2800,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Moderate Republicans",
+                "Civil Service Reform"
+            ]
+        },
+        "Patronage Politics": {
+            "x": 1200,
+            "y": 2650,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Civil Service Reform": {
+            "x": 800,
+            "y": 2650,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Mugwumps": {
+            "x": 800,
+            "y": 2950,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Half-Breeds;Republican reformers",
+                "Civil Service Reform"
+            ]
+        },
+        "Liberal Republicanism": {
+            "x": 650,
+            "y": 2950,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Liberal Republicans": {
+            "x": 700,
+            "y": 3100,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Moderate Republicans",
+                "Liberal Republicanism"
+            ]
+        },
+        "Progressivism": {
+            "x": 850,
+            "y": 3250,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Progressive Republicans": {
+            "x": 900,
+            "y": 3400,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Liberal Republicans",
+                "Progressivism"
+            ]
+        },
+        "Standpat Republicans": {
+            "x": 1150,
+            "y": 3400,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Stalwart Republicans"
+            ]
+        },
+        "Bryanism": {
+            "x": 450,
+            "y": 2950,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Free Silver": {
+            "x": 300,
+            "y": 2950,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Populist Party": {
+            "x": 200,
+            "y": 3100,
+            "type": 1,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": [
+                "Free Silver",
+                "Agrarian Populism"
+            ]
+        },
+        "Agrarian Populism": {
+            "x": 50,
+            "y": 2950,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Populist Democrats": {
+            "x": 400,
+            "y": 3250,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Bourbon Democrats;Bryan takeover",
+                "Bryanism",
+                "Populist Party;Fusion"
+            ]
+        },
+        "Gold Democrats": {
+            "x": 600,
+            "y": 3250,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Bourbon Democrats",
+                "Economic Liberalism"
+            ]
+        },
+        "Bull Moose Movement": {
+            "x": 750,
+            "y": 3550,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Progressive Republicans;Principal component",
+                "Progressivism"
+            ]
+        },
+        "Progressive Party": {
+            "x": 700,
+            "y": 3700,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Bull Moose Movement"
+            ]
+        },
+        "Republican Conservatives": {
+            "x": 1100,
+            "y": 3700,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Standpat Republicans"
+            ]
+        },
+        "Wilsonian Liberalism": {
+            "x": 500,
+            "y": 3550,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Progressive Democrats (Old)": {
+            "x": 500,
+            "y": 3700,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Populist Democrats",
+                "Wilsonian Liberalism"
+            ]
+        },
+        "Old Right": {
+            "x": 1250,
+            "y": 3850,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Old Guard Republicans": {
+            "x": 1200,
+            "y": 4000,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Republican Conservatives",
+                "Old Right"
+            ]
+        },
+        "New Nationalism": {
+            "x": 850,
+            "y": 3850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Progressive Reformers": {
+            "x": 850,
+            "y": 4000,
+            "type": 1,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": [
+                "Progressive Party",
+                "New Nationalism"
+            ]
+        },
+        "New Freedom": {
+            "x": 450,
+            "y": 3850,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Wilson Democrats": {
+            "x": 450,
+            "y": 4000,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Progressive Democrats (Old)",
+                "New Freedom"
+            ]
+        },
+        "Isolationism": {
+            "x": 1350,
+            "y": 4150,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Interwar Republicans": {
+            "x": 1250,
+            "y": 4300,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Old Guard Republicans",
+                "Isolationism"
+            ]
+        },
+        "New Deal Liberalism": {
+            "x": 550,
+            "y": 4150,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Roosevelt Coalition": {
+            "x": 650,
+            "y": 4300,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Wilson Democrats",
+                "Progressive Reformers;Progressive support",
+                "Urban Political Machines;Coalition partner"
+            ]
+        },
+        "Urban Political Machines": {
+            "x": 800,
+            "y": 4150,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "New Deal Democrats": {
+            "x": 600,
+            "y": 4450,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Roosevelt Coalition",
+                "New Deal Liberalism"
+            ]
+        },
+        "Southern Conservatives": {
+            "x": 200,
+            "y": 4450,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Redeemers",
+                "States' Rights;Continuing tradition"
+            ]
+        },
+        "Southern Democrat Coalition": {
+            "x": 350,
+            "y": 4600,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Southern Conservatives",
+                "New Deal Democrats;Coalition partner"
+            ]
+        },
+        "Labor Liberalism": {
+            "x": 700,
+            "y": 4600,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Organized Labor": {
+            "x": 900,
+            "y": 4600,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Labor Democrats": {
+            "x": 800,
+            "y": 4750,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "New Deal Democrats",
+                "Labor Liberalism",
+                "Organized Labor"
+            ]
+        },
+        "Liberal Internationalism": {
+            "x": 1100,
+            "y": 4600,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Internationalist Republicans": {
+            "x": 1200,
+            "y": 4750,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Interwar Republicans",
+                "Liberal Internationalism"
+            ]
+        },
+        "America First (Old)": {
+            "x": 1450,
+            "y": 4600,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Isolationist Republicans": {
+            "x": 1550,
+            "y": 4750,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Interwar Republicans",
+                "America First (Old)"
+            ]
+        },
+        "Modern Liberalism": {
+            "x": 650,
+            "y": 4900,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Civil Rights Movement": {
+            "x": 900,
+            "y": 4900,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Kennedy-Johnson Democrats": {
+            "x": 775,
+            "y": 5050,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Labor Democrats",
+                "Modern Liberalism",
+                "Civil Rights Movement"
+            ]
+        },
+        "Modern Conservatism": {
+            "x": 1700,
+            "y": 4900,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Fusionism": {
+            "x": 1900,
+            "y": 4900,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Goldwater Republicans": {
+            "x": 1800,
+            "y": 5050,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Internationalist Republicans;Party takeover",
+                "Modern Conservatism",
+                "Fusionism"
+            ]
+        },
+        "Dixiecrats": {
+            "x": 250,
+            "y": 5050,
+            "type": 1,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": [
+                "Southern Democrat Coalition",
+                "Southern Conservatives;States' Rights revolt"
+            ]
+        },
+        "Southern Strategy": {
+            "x": 1500,
+            "y": 5200,
+            "type": 0,
+            "color": 9,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "New Right": {
+            "x": 1850,
+            "y": 5200,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Nixon-Ford Republicans": {
+            "x": 1700,
+            "y": 5350,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Goldwater Republicans",
+                "Southern Strategy",
+                "New Right;Emerging tendency"
+            ]
+        },
+        "Neoconservatism": {
+            "x": 2050,
+            "y": 5350,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Religious Right": {
+            "x": 2250,
+            "y": 5350,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Reagan Coalition": {
+            "x": 2050,
+            "y": 5500,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Nixon-Ford Republicans",
+                "Neoconservatism",
+                "Religious Right"
+            ]
+        },
+        "Reagan Republicans": {
+            "x": 2050,
+            "y": 5650,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Reagan Coalition"
+            ]
+        },
+        "New Democrats": {
+            "x": 600,
+            "y": 5500,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Clinton Democrats": {
+            "x": 700,
+            "y": 5650,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Kennedy-Johnson Democrats",
+                "New Democrats"
+            ]
+        },
+        "Progressive Caucus": {
+            "x": 400,
+            "y": 5500,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Progressive Democrats": {
+            "x": 450,
+            "y": 5650,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Kennedy-Johnson Democrats",
+                "Progressive Caucus"
+            ]
+        },
+        "Third Way": {
+            "x": 550,
+            "y": 5800,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "New Democrat Coalition": {
+            "x": 700,
+            "y": 5950,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Clinton Democrats",
+                "Third Way"
+            ]
+        },
+        "Blue Dog Coalition": {
+            "x": 400,
+            "y": 5950,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Clinton Democrats;Moderate faction"
+            ]
+        },
+        "Democratic Socialism": {
+            "x": 150,
+            "y": 5800,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Social Democracy": {
+            "x": 0,
+            "y": 5800,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Democratic Socialist Current": {
+            "x": 75,
+            "y": 5950,
+            "type": 1,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Socialism",
+                "Social Democracy"
+            ]
+        },
+        "Compassionate Conservatism": {
+            "x": 1700,
+            "y": 5800,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Bush Republicans": {
+            "x": 1750,
+            "y": 5950,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Reagan Republicans",
+                "Compassionate Conservatism"
+            ]
+        },
+        "Paleoconservatism": {
+            "x": 2050,
+            "y": 5800,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Paleoconservatives": {
+            "x": 2100,
+            "y": 5950,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Reagan Republicans",
+                "Paleoconservatism"
+            ]
+        },
+        "Neoliberalism": {
+            "x": 850,
+            "y": 6100,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Obama Coalition": {
+            "x": 700,
+            "y": 6250,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "New Democrat Coalition",
+                "Progressive Democrats;Coalition partner",
+                "Neoliberalism"
+            ]
+        },
+        "Obama Democrats": {
+            "x": 700,
+            "y": 6400,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Obama Coalition"
+            ]
+        },
+        "Tea Party Movement": {
+            "x": 1850,
+            "y": 6100,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Fiscal Conservatism": {
+            "x": 1700,
+            "y": 6100,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Tea Party Republicans": {
+            "x": 1775,
+            "y": 6250,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Bush Republicans",
+                "Tea Party Movement",
+                "Fiscal Conservatism"
+            ]
+        },
+        "Freedom Caucus": {
+            "x": 1900,
+            "y": 6400,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Tea Party Republicans"
+            ]
+        },
+        "Occupy Movement": {
+            "x": 250,
+            "y": 6100,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Progressive Left": {
+            "x": 350,
+            "y": 6250,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Progressive Democrats",
+                "Occupy Movement"
+            ]
+        },
+        "Democratic Socialists of America": {
+            "x": 100,
+            "y": 6250,
+            "type": 2,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Socialist Current"
+            ]
+        },
+        "Bernie Movement": {
+            "x": 200,
+            "y": 6550,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Sanders Progressives": {
+            "x": 250,
+            "y": 6700,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Progressive Left",
+                "Bernie Movement",
+                "Democratic Socialists of America;Organizational support"
+            ]
+        },
+        "Trumpism": {
+            "x": 2050,
+            "y": 6550,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Right-Wing Populism": {
+            "x": 2200,
+            "y": 6550,
+            "type": 0,
+            "color": 2,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "MAGA Movement": {
+            "x": 2125,
+            "y": 6700,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Tea Party Republicans",
+                "Trumpism",
+                "Right-Wing Populism"
+            ]
+        },
+        "Trump Republicans": {
+            "x": 2125,
+            "y": 6850,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "MAGA Movement"
+            ]
+        },
+        "Congressional Progressive Caucus": {
+            "x": 350,
+            "y": 6850,
+            "type": 2,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Sanders Progressives",
+                "Progressive Caucus;Institutional continuation"
+            ]
+        },
+        "Justice Democrats": {
+            "x": 100,
+            "y": 6850,
+            "type": 2,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": [
+                "Sanders Progressives",
+                "Democratic Socialists of America;Organizational overlap"
+            ]
+        },
+        "Democratic Establishment": {
+            "x": 650,
+            "y": 6850,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Obama Democrats",
+                "New Democrat Coalition"
+            ]
+        },
+        "Identity Politics": {
+            "x": 500,
+            "y": 7000,
+            "type": 0,
+            "color": 4,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Biden Coalition": {
+            "x": 575,
+            "y": 7150,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "Democratic Establishment",
+                "Congressional Progressive Caucus;Coalition partner",
+                "Identity Politics"
+            ]
+        },
+        "Biden Democrats": {
+            "x": 575,
+            "y": 7300,
+            "type": 1,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Biden Coalition"
+            ]
+        },
+        "Abundance Liberalism": {
+            "x": 800,
+            "y": 7150,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Liberal Institutionalism": {
+            "x": 950,
+            "y": 7150,
+            "type": 0,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Mainstream Democrats": {
+            "x": 875,
+            "y": 7300,
+            "type": 2,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Biden Democrats",
+                "Abundance Liberalism",
+                "Liberal Institutionalism"
+            ]
+        },
+        "Economic Progressivism": {
+            "x": 250,
+            "y": 7150,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Left Populism": {
+            "x": 100,
+            "y": 7150,
+            "type": 0,
+            "color": 3,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Progressive Democrats (New)": {
+            "x": 175,
+            "y": 7300,
+            "type": 2,
+            "color": 0,
+            "hyperlink": "",
+            "precursors": [
+                "Congressional Progressive Caucus",
+                "Economic Progressivism",
+                "Left Populism"
+            ]
+        },
+        "Constitutional Conservatism": {
+            "x": 1750,
+            "y": 7000,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "House Freedom Caucus": {
+            "x": 1800,
+            "y": 7150,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Freedom Caucus",
+                "Constitutional Conservatism"
+            ]
+        },
+        "National Conservatism": {
+            "x": 2050,
+            "y": 7000,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "America First": {
+            "x": 2200,
+            "y": 7000,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": [
+                "America First;Modern revival"
+            ]
+        },
+        "MAGA Republicans": {
+            "x": 2125,
+            "y": 7150,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Trump Republicans",
+                "National Conservatism",
+                "America First"
+            ]
+        },
+        "Republican Main Street Partnership": {
+            "x": 1550,
+            "y": 7300,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Bush Republicans",
+                "Moderate Republicanism;Continuing tendency"
+            ]
+        },
+        "Never Trump": {
+            "x": 1400,
+            "y": 7000,
+            "type": 0,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Anti-Trump Republicans": {
+            "x": 1450,
+            "y": 7150,
+            "type": 1,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Republican Main Street Partnership",
+                "Never Trump"
+            ]
+        },
+        "Post-Liberalism": {
+            "x": 2350,
+            "y": 7300,
+            "type": 0,
+            "color": 5,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Trump Coalition (2024)": {
+            "x": 2200,
+            "y": 7450,
+            "type": 1,
+            "color": 7,
+            "hyperlink": "",
+            "precursors": [
+                "MAGA Republicans",
+                "House Freedom Caucus;Coalition partner",
+                "Post-Liberalism"
+            ]
+        },
+        "Trump Administration (2025)": {
+            "x": 2200,
+            "y": 7600,
+            "type": 2,
+            "color": 1,
+            "hyperlink": "",
+            "precursors": [
+                "Trump Coalition (2024)"
+            ]
+        },
+        "Technolibertarianism": {
+            "x": 2450,
+            "y": 7450,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "New Right Tech Movement": {
+            "x": 2500,
+            "y": 7600,
+            "type": 1,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Trump Coalition (2024)",
+                "Technolibertarianism"
+            ]
+        },
+        "Libertarianism": {
+            "x": 2700,
+            "y": 7000,
+            "type": 0,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Libertarian Party": {
+            "x": 2700,
+            "y": 7150,
+            "type": 2,
+            "color": 6,
+            "hyperlink": "",
+            "precursors": [
+                "Libertarianism"
+            ]
+        },
+        "Christian Nationalism": {
+            "x": 2400,
+            "y": 7000,
+            "type": 0,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": []
+        },
+        "Christian Conservative Movement": {
+            "x": 2400,
+            "y": 7150,
+            "type": 1,
+            "color": 8,
+            "hyperlink": "",
+            "precursors": [
+                "Religious Right",
+                "Christian Nationalism"
+            ]
+        }
+    }
+}
